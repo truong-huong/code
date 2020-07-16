@@ -1,0 +1,115 @@
+
+
+
+<title>BlockQuote</title>
+<link href="https://fonts.googleapis.com/css2?family=Sriracha&amp;display=swap" rel="stylesheet"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<style type="text/css">
+	._quote-container {
+		padding: 10px;
+	}
+	._quote {
+		display: grid;
+		grid-template-columns:50% 50%;
+		font-family: 'Sriracha', cursive;
+	}
+	.quote {
+		all:unset;
+		margin-right: 10px;
+	}
+	.quote-meta {
+		margin-left: 100px;
+	}
+	.quote-image {
+		position: relative;
+		float: right;
+		width: 100%;
+	}
+	.quote-image:after {
+		content: "";
+		display: block;
+		padding-bottom: 100%;
+	}
+	.quote-image img {
+		position: absolute;
+		max-width: 250px;
+		max-height: 250px;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	.h4 {
+		font-size: 18px;
+	}
+	.h5 {
+		font-size: 16px;
+		color: #677778;
+	}
+	.quote-tag {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		top: 10%;
+		margin-left: -100px;
+		padding: 20px;
+		color: #000;
+		background-color: #fff;
+		border: solid 1px;
+		opacity: 0.9;
+		max-width: 250px;
+	}
+	.quote-tag span:first-child {
+		font-weight: bold;
+		font-size:18px;
+	}
+	.quote-tag span:last-child {
+		font-size: 16px;
+	}
+	@media (max-width: 750px) { 
+		._quote {
+			display: grid;
+			grid-template-columns:unset;
+		}
+		@media (max-width: 425px) { 
+			.quote-meta {
+			    margin-left: unset;
+			}
+			.quote-meta img{
+			    max-width: unset;
+			}
+			.quote-tag {
+			    position: absolute;
+			    display: flex;
+			    flex-direction: column;
+			    top: unset;
+			    margin-left: unset;
+			    padding: 10px;
+			    color: #000;
+			    background-color: #fff;
+			    opacity: 0.7;
+			}
+		}
+	}
+</style>
+<div class="_quote-container">
+	<div class="_quote">
+		<blockquote class="quote">
+			<p>[Raphael's] great superiority is due to the instinctive sense which, in him, seems to desire to shatter form. Form is, in his figures, what it is in ourselves, an interpreter for the communication of ideas and sensations, an exhaustless source of poetic inspiration. Every figure is a world in itself, a portrait of which the original appeared in a sublime vision, in a flood of light, pointed to by an inward voice, laid bare by a divine finger which showed what the sources of expression had been in the whole past life of the subject.</p>
+			<p><b>CODER 😍<a href='' rel='dofollow'>MOTCODE</a></b></p>
+		</blockquote>
+		<div class="quote-meta">
+			<div class='quote-image'>
+				<img src="https://www.azquotes.com/public/pictures/authors/cc/42/cc4204df75aa33de5c44638e6f836fb6/52b95607d2d5e.jpg"/>
+				<div class="quote-tag">
+					<span class="h4">Honore de Balzac</span>
+					<span class="h5">1799 - 1850</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
