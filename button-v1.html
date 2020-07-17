@@ -1,0 +1,80 @@
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title>Button codemai</title>
+<style type="text/css">
+	body {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	._button-container {
+		display:grid;
+		grid-template-columns: auto auto;
+		width: 400px;
+	}
+  a {
+  all:unset;
+  
+  }
+	a._button {
+		display: block;
+	}
+	._button {
+		font-weight: bold;
+		text-transform: uppercase;
+		cursor: pointer;
+		display: block;
+		white-space: nowrap;
+		max-width: 150px;
+		margin: 10px 20px;
+	}
+	.button {
+		padding: 10px;
+		border-radius: 10px;
+		box-shadow:
+		  0 7px 30px -10px rgba(150,170,180,0.5);
+		  transition:all .2s;
+	}
+	.button:hover {
+		box-shadow:
+		  0  5px 10px rgba(154,160,185,0.05),
+		  0 15px 40px rgba(166,173,201,0.2);
+		  transform: scale(1.1);
+		  transition:all .2s;
+	}
+	.download-button:after {
+		display: inline-block;
+		content: "💾";
+		margin-left: 10px;
+	}
+	.preview-button:after {
+		display: inline-block;
+		content: "👓";
+		margin-left: 10px;
+	}
+</style>
+<div class="_button-container">
+	<a class="_button" href="https://codemai.blogspot.com" rel='doffolow'>
+		<div class="button download-button">
+			Preview
+		</div>
+	</a>
+
+	<a class="_button" href="https://codemai.blogspot.com" rel='doffolow'>
+		<div class="button preview-button">
+			Download
+		</div>
+	</a>
+	<a class="_button" href="https://codemai.blogspot.com" rel='doffolow'>
+		<div class="button download-button" style="background-color: #f15353;">
+			Preview
+		</div>
+	</a>
+	<a class="_button" href="https://codemai.blogspot.com" rel='doffolow'>
+		<div class="button preview-button" style="background-color: #5cb85c;">
+			Download
+		</div>
+	</a>
+</div>
