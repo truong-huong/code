@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.3.0' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr' lang='en' b:js='false'>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<title>
+		<b:if cond='data:view.isSingleItem or data:view.isHomepage'>
+		    <data:view.title.escaped/>
+		  <b:elseif cond='data:view.isSearch'/>
+		    <b:if cond='data:view.search.label'>Chủ đề: <b:include name='vietlabel' data='data:view.search.label.escaped'/>
+		    <b:elseif cond='data:view.search.query'/>
+		      <b:eval expr='"Kết quả tìm kiếm : " + data:view.search.query.escaped'/>
+		    <b:else/>
+		      <data:messages.olderPosts/>
+		    </b:if>
+		  <b:elseif cond='data:view.isArchive'/>
+		    <data:messages.blogArchive/> : <data:blog.pageName/>
+		  <b:else/>
+		    Page 404
+		  </b:if>
+	</title>
+    <b:if cond='data:blog.metaDescription'>
+        <meta expr:content='data:blog.metaDescription snippet { length: 150, links: false, linebreaks: false, ellipsis: false}' name='description'/>
+    <b:else/>
+    	<meta content='mọt code - nơi một thằng mọt chia sẻ thủ thuật blogspot - hacking - code' name='description'/>
+	</b:if>
+	<meta expr:content='data:view.title.escaped' name='keywords'/>
+	<link expr:href='resizeImage(data:view.featuredImage,600,"600:315")' rel='image_src'/>
+	<!-- Facebook -->
+	<meta property="og:title" expr:content="data:view.title" />
+	<meta property="og:description" expr:content="data:blog.metaDescription snippet { length: 150, links: false, linebreaks: false, ellipsis: false}" />
+	<meta property="og:url" expr:content="data:blog.url.canonical" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" expr:content='resizeImage(data:view.featuredImage,600,"600:315")' />
+	<meta property="og:image:width" content="600" />
+	<meta property="og:image:height" content="315" />
+	<meta property="og:image:alt" expr:content="data:view.title" />
+	<meta property="og:site_name" content="muoitravels" />
+	<meta property="og:locale" content="vi_VN" />
+	<meta property="fb:app_id" content="1148726895462441" />
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="mốt code" />
+	<meta name="twitter:title" expr:content="data:view.title" />
+	<meta name="twitter:description" expr:content="data:blog.metaDescription snippet { length: 150, links: false, linebreaks: false, ellipsis: false}" />
+	<meta name="twitter:image:src" expr:content='resizeImage(data:view.featuredImage,600,"600:315")' />
+	<meta name="twitter:creator" content="@muoitravels" />
+	<meta name="twitter:url" expr:content="data:blog.url.canonical" />
+
+	<meta itemprop="name" expr:content="data:view.title" />
+	<meta itemprop="description" expr:content="data:blog.metaDescription snippet { length: 150, links: false, linebreaks: false, ellipsis: false}" />
+	<meta itemprop="image" expr:content='resizeImage(data:view.featuredImage,600,"600:315")' />
+	<link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon'/>
+	
+
+	<!--
+		<link expr:href='data:view.url.canonical' rel='canonical'/>
+	<link expr:href=' data:view.url.canonical + "?m=1"' media='only screen and (max-width: 640px)' rel='alternate'/>
+	<link expr:href=' data:view.url.canonical + "?m=1"' media='handheld' rel='alternate'/ -->
+	<!-- Font -->
+	<data:blog.feedLinks/>
+	<b:skin><![CDATA[
+	 
+	    ]]></b:skin>
+	    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Niramit%3Aregular%2C500%2C300%7CRoboto+Condensed%3Aregular%2Cregular%7CDancing+Script%3Aregular%2C400&#038;display=swap&#038;ver=3.9' type='text/css' media='all' />
+	    <link href="https://fonts.googleapis.com/css2?family=Sriracha&amp;display=swap" rel="stylesheet"/>
+	<style>
+	html , body {
+		padding: 0;
+		margin:0;
+		font-family:"Niramit", sans-serif;
+		color: #677788;
+		line-height: 1.6;
+		letter-spacing: 0.8;
+	}
+	* {
+		box-sizing: border-box;
+	}
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+		.flex {
+			display: flex;
+		}
+		.flex-row {
+			flex-direction: row;
+		}
+		.flex-wrap-x2 {
+			flex-wrap: wrap;
+		}
+		.bold {
+			font-weight: bold;
+			color: #000;
+		}
+		.flex-column {
+			flex-direction: column;
+		}
+		.align-items-center {
+			align-items: center;
+		}
+		.justify-content-space-between {
+			justify-content: space-between;
+
+		}
+		.float-right {
+			float: right;
+		}
+		.justify-content-center {
+			justify-content: center;
+		}
+
+	.nav ul {
+		list-style: none;
+		padding: 0;
+	}
+	h1,h2,h3,h4,h5,h6 {
+		padding: 0;
+		margin:0;
+		color: #000;
+	}
+	h2,.h2 {
+		 font-size: 22px;
+	}
+	h3,.h3 {
+		font-size: 20px;
+	}
+	h4,.h4 {
+		font-size: 18px;
+	}
+	h5,.h5 {
+		font-size: 16px;
+	}
+	h6,.h6 {
+		font-size: 14px;
+	}
+	.menu {
+		position: relative;
+		display: flex;
+	}
+	.menu li {
+		text-transform: uppercase;
+		color: #000;
+		font-size: 12.8px;
+		margin: 0 20px;
+		position: relative;
+	}
+	.menu > li {
+		padding: 10px 0;
+	}
+	.menu > li:hover {
+		border-top: solid 3px #000;
+	}
+	.sub-menu {
+		position: absolute;
+		display: none;
+		transition:all .3s ease-in-out;
+		background-color: rgba(135,135,137,0.5);
+		width: 230px;
+		right: 0;
+		text-align:center;
+		margin-top: 10px;
+		z-index: 10;
+	}
+	.sub-menu li{
+		padding:10px 10px;
+		font-size: 14px;
+		margin:0;
+	}
+	.nav ul li:hover > ul {
+		display: block;
+		transition:all .3s ease-in-out;
+	}
+	._header {
+		width: 100%;
+		position: relative;
+	}
+	.header {
+		position: absolute;
+		top:0;
+		width: 100%;
+		left: 0;
+		z-index: 10;
+	}
+
+	.post-header-image {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		overflow: hidden;
+	}
+	._is-posts .post-header-image  {
+		height: 70vh;
+	}
+	.post-title {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%) !important;
+		color: #fff;
+		text-align: center;
+		line-height: 1;
+		font-size: 4.5em;
+		text-shadow: 1px 1px #f1f1f1;
+		width: 80%;
+		font-family: 'Sriracha', cursive;
+	}
+	.post-header-image img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		z-index: -10;
+		pointer-events: none;
+	}
+	.post-entry {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 80px;
+		
+		font-size: 1.1rem;
+	}
+	.post-entry img {
+		width: auto;
+		height: auto;
+	}
+	.post-entry *{
+		max-width: 100%
+	}
+	.summary-content {
+		font-style: italic;
+		border-left: solid 2px #000;
+	    margin: 10px 0 20px;
+	    padding: 10px 10px 10px 30px;
+ 
+	}
+	.about-me {
+		width: 80%;
+		margin:30px auto;
+		margin-top: 50px;
+		max-width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	._introduce {
+		display: grid;
+		grid-template-columns:50% 50%;
+	}
+	.introduce {
+		margin-right: 10px;
+	}
+	.introduce-meta {
+		margin-left: 100px;
+	}
+	.introduce-image {
+		position: relative;
+		float: right;
+		width: 100%;
+	}
+	.introduce-image:after {
+		content: "";
+		display: block;
+		padding-bottom: 100%;
+	}
+	.introduce-image img {
+		max-width: 300px;
+		max-height: 300px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	.introduce-tag {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		top: 20%;
+		margin-left: -100px;
+		padding: 20px;
+		color: #000;
+		background-color: #fff;
+		border: solid 1px;
+		opacity: 0.9;
+		max-width: 250px;
+	}
+	.introduce-tag span:first-child {
+		font-weight: bold;
+		font-size:18px;
+	}
+	.introduce-tag span:last-child {
+		font-size: 16px;
+	}
+	.posts-list {
+		display: grid;
+		width: 80%;
+		margin-right:auto;
+		margin-left: auto;
+		grid-template-columns: 25% 25% 25% 25%;
+		grid-gap: 25px;
+		margin-top: 80px;
+	}
+	.map-embed {
+		width: 100%;
+		margin-top: 50px;
+	}
+	.post img {
+		width: 100%;
+		height: 200px;
+		object-fit: cover;
+	}
+	._post-title {
+		text-align: center;
+	}
+	.footer ul {
+		list-style: none;
+		padding: 0;
+		margin:0;
+	}
+	.footer-links , .copyright {
+		margin: 20px 0;
+		text-transform: uppercase;
+		    font-size: small;
+	}
+	.opacity-0 {
+		opacity: 0;
+	}
+	.footer-links li {
+		margin:5px 20px;
+	}
+	._footer {
+		margin-top: 100px;
+		position: relative;
+		height: 40vh;
+		font-size: 125%;
+		color: #fff;
+	}
+	.footer-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -10;
+		width: 100%;
+		height: 100%;
+	}
+	.footer-image img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.group {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #000;
+		margin-top: 100px;
+	}
+	.open-menu-button {
+		display: none;
+		position: absolute;
+	    top: 20px;
+	    right: 20px;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    color: #000;
+	    border:solid #fff;
+	    background-color: #fff;
+	}
+	.show-menu{
+		z-index: 0 !important;
+		opacity: 1 !important;
+		transition:all .3s ease-in-out !important;
+		margin-top: 70px;
+		background-color: #fff;
+	}
+	.show-menu .sub-menu {
+		background-color: #fff;
+	}
+	._post-pagination {
+		margin: 100px auto 20px auto;
+	}
+	.post-pagination {
+		display: grid;
+	    grid-template-columns: auto auto auto;
+	    margin: 50px 20px 20px 20px;
+	    font-family: 'Sriracha', cursive;
+
+	}
+	.post-pagination-section {
+		color: #000;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	/* Thay đổi kích thước chữ post-title*/
+	@media (max-width: 910px) {
+		.post-title {
+			font-size: 4em;
+		}
+	}
+	@media (max-width: 630px) {
+		.post-title {
+			font-size: 3em;
+		}
+		@media (max-width: 375px) {
+			.post-title {
+				font-size: 2.85em;
+			}
+			@media (max-width: 320px) {
+				.post-title {
+					font-size: 2.5em;
+				}
+			}
+		}
+	}
+	/* /*/ 
+	@media (max-width: 1000px) {
+		.posts-list {
+			grid-template-columns: 33.33% 33.33% 33.33%;
+		}
+		.post-entry {
+			width: 80%;
+		}
+	}
+	@media (max-width: 900px) {
+		 .menu {
+		 	z-index: -100;
+		 	opacity: 0;
+		 	flex-direction: column;
+		 	transition:all .3s ease-in-out;
+		 }
+		 .open-menu-button {
+		 	display: block;
+		 }
+	}
+	@media (max-width: 750px) { 
+		.post-entry {
+			width: 90%;
+		}
+		._introduce {
+			display: grid;
+			grid-template-columns:unset;
+		}
+		.posts-list {
+			grid-template-columns: 50% 50%;
+		}
+
+		@media (max-width: 550px) { 
+			.posts-list {
+				grid-template-columns: 100%;
+			}
+		}
+		@media (max-width: 425px) { 
+			.introduce-meta {
+			    margin-left: unset;
+			}
+			.introduce-meta img{
+			    max-width: unset;
+			}
+			.introduce-tag {
+			    position: absolute;
+			    display: flex;
+			    flex-direction: column;
+			    bottom: 0;
+			    top: unset;
+			    margin-left: unset;
+			    padding: 10px;
+			    color: #000;
+			    background-color: #fff;
+			    opacity: 0.7;
+			}
+		}
+	}
+
+	</style>
+	<b:defaultmarkups>
+	  <b:defaultmarkup type='Common, PopularPosts'>
+	    <b:includable id='vietlabel' var='label'>
+    		<b:if cond='data:label == "an-gi"'>Ăn Cái Gì Nào
+    		<b:elseif cond='data:label == "ba-mien-to-quoc"'/>Ba Miền Tổ Quốc
+    		<b:elseif cond='data:label == "quang-binh"'/>Quảng Bình
+    		<b:else/>
+    			<data:label/>
+    		</b:if>
+	    </b:includable>
+	  	<b:includable id='headerImage' var='post'>
+	  		<b:if cond='data:post.enclosures.notEmpty'>
+				<b:if cond='data:post.enclosures.length > 1'>
+			  			<b:if cond='data:view.isSingleItem'>
+			  				<img expr:title='data:post.title.escaped' loading='lazy' expr:src='resizeImage(data:post.enclosures[1].url, 2048, "16:9")' expr:alt="data:post.title"/>
+			  			<b:else/>
+			  				<img expr:title='data:post.title.escaped' loading='lazy' expr:src='resizeImage(data:post.enclosures[0].url, 480, "1:1")' expr:alt="data:post.title"/>
+			  			</b:if>
+				<b:elseif cond='data:post.enclosures.length == 1'/>
+			  			<b:if cond='data:view.isSingleItem'>
+			  				<img expr:title='data:post.title.escaped' loading='lazy' expr:src='resizeImage(data:post.featuredImage, 2048, "16:9")' expr:alt="data:post.title"/>
+	  					<b:else/>
+	  						<img expr:title='data:post.title.escaped' loading='lazy' expr:src='resizeImage(data:post.enclosures[0].url, 480, "1:1")' expr:alt="data:post.title"/>
+	  					</b:if>
+	  			<b:else/>
+	  			</b:if>
+	  		<b:else/>
+	  			<b:if cond='data:post.featuredImage'>
+	  				<b:if cond='data:view.isSingleItem'>
+	  					<img expr:title='data:post.title.escaped' loading='lazy' expr:src='resizeImage(data:post.featuredImage, 2048, "16:9")' expr:alt="data:post.title"/>
+	  				<b:else/>
+	  					<img expr:title='data:post.title.escaped' loading='lazy' expr:src='resizeImage(data:post.featuredImage, 480, "1:1")' expr:alt="data:post.title"/>
+	  				</b:if>
+	  			<b:else/>
+	  				<img />
+	  			</b:if>
+	  		</b:if>
+	  	</b:includable>
+	  </b:defaultmarkup>
+	</b:defaultmarkups>
+&lt;!--</head>--&gt;&lt;/head&gt;
+<body expr:class='( (data:view.isSingleItem) ? "_is-post" : "_is-posts")'>
+	<header class="_header">
+		<b:section id='b-section-1' showaddelement='yes' class='flex flex-row just-content justify-content-space-between header'>
+		    <b:widget id='Header1' locked='false' title='Logo của website' type='Header' version='2' visible='true'>
+		        <b:includable id='main'>
+	        		 <b:if cond='data:image'>
+	        		     <img expr:alt='data:blog.title.escaped' expr:title='data:blog.title.escaped' loading='lazy' expr:src='data:image'/>
+	        		 </b:if>
+		    	</b:includable>
+			</b:widget>
+		    <b:widget id='HTML1' locked='false' title='Logo của website' type='HTML' version='2' visible='true'>
+		        <b:includable id='main'>
+		        	<nav class="nav">
+		        		<span class="open-menu-button">menu</span>
+		        		<ul class="menu">
+		        			<li><span>ba miền tổ quốc</span>
+		        				<ul class="sub-menu">
+		        					<li>miền bắc</li>
+		        					<li>miền trung</li>
+		        					<li>miền nam</li>
+		        				</ul>
+		        			</li>
+		        			<li><span>đảo việt</span>
+		        				<ul class="sub-menu">
+		        					<li>trường sa</li>
+		        					<li>lý sơn</li>
+		        					<li>côn đảo</li>
+		        					<li>sơn trà</li>
+		        					<li>đảo yến</li>
+		        				</ul>
+		        			</li>
+		        			<li><span><a href='/search/label/an-gi/' title='ăn gì ở đâu'>ăn gì</a></span>
+		        			</li>
+		        			<li><span>63 tỉnh thành</span>
+		        				<ul class="sub-menu">
+		        					<li><a href='/search/label/quang-binh' title='Quảng Bình'>Quảng Bình</a></li>
+		        				</ul>
+		        			</li>
+		        			<li><span>thế giới</span>
+		        				<ul class="sub-menu">
+		        					<li>miền bắc</li>
+		        					<li>miền trung</li>
+		        					<li>miền nam</li>
+		        				</ul>
+		        			</li>
+		        		</ul>
+		        	</nav>
+		    	</b:includable>
+			</b:widget>
+		</b:section>
+	</header>
+	<b:section id='b-section-4'>
+	    <b:widget id='Blog1' locked='false' title='FeaturedPost' type='Blog' version='2' visible='true'>
+	    	<b:includable id='main'>
+	    		<b:include cond='!data:view.isSingleItem' name='header'/>
+	    		<b:if cond='!data:view.isSingleItem and !data:view.isError'>
+	    			<div class="group">My journeys and My posts</div>
+	    			<b:if cond='not data:posts.any'>
+	    				<div class="group h3">Nothing to show</div>
+	    			</b:if>
+	    		</b:if>
+	    		<div expr:class='(!data:view.isSingleItem and !data:view.isError) ? "posts-list" : ""'>
+					<b:loop values='data:posts' var='post'>
+						<b:include name='postsOrPost' data='post'/>
+					</b:loop>
+				</div>
+				<b:include name='postPagination'/>
+			</b:includable>
+			<!-- nextPageLink -->
+			<b:includable id='postPagination'>
+		        <div class='_post-pagination'>
+		        	<div class="post-pagination">
+			            <b:include cond='data:newerPageUrl' name='previousPageLink'/>
+			            <b:include cond='data:view.url != data:blog.homepageUrl' name='homePageLink'/>
+			            <b:include cond='data:olderPageUrl' name='nextPageLink'/>
+			        </div>
+		        </div>
+		    </b:includable>
+		    <b:includable id='previousPageLink'>
+		        <div class='post-pagination-section'>
+		          <a aria-label='Bài đăng mới hơn' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + "_blog-pager-newer-link"' expr:title='data:messages.newerPosts'>Mới hơn<i aria-hidden='true' class='fas fa-arrow-left'/>
+		          </a>
+		        </div>
+		    </b:includable>
+		    <b:includable id='homePageLink'>
+		        <div class='post-pagination-section'>
+		          <a aria-label='Trang chủ' expr:href='data:blog.homepageUrl' title='Trang chủ'>Home</a>
+		        </div>
+		    </b:includable>
+			<b:includable id='nextPageLink'>
+			<div class='post-pagination-section'>
+			  <a aria-label='Bài đăng cũ hơn' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + "_blog-pager-older-link"' expr:title='data:messages.olderPosts'>Cũ hơn</a>
+			</div>
+			</b:includable>
+			<!-- header -->
+			<b:includable id='header'>
+				<b:include name='headerMeta'/>
+				<b:include name='aboutMe' cond='!data:view.isSingleItem'/>
+			</b:includable>
+			<!-- Vè tôi -->
+			<b:includable id='aboutMe'>
+				<div class="about-me flex flex-row _introduce">
+					<div class="introduce">
+						<p>Youth is a beautiful time in each person's life</p>
+						<p>And I want my youth to be the footprints on the long journeys and the moments of playing with friends, with myself.</p>
+						<p>One thing I want to send to myself: "<b>Life is a long road, and whether it is rough or flat, easy or difficult, someone walks together or temporarily becomes independent, it must be made. a path full of joy and enjoy every step, every breath of life on that path.</b>"</p>
+						<p>And I want my youth to be the footprints on the long journeys and the moments of playing with friends, with myself.</p>
+
+						<p class="h4 bold">BELIEVE IN LIFE</p>
+					</div>
+					<div class="introduce-meta">
+						<div class='introduce-image'>
+							<img expr:alt='data:view.title.escaped' expr:title='data:view.title.escaped' loading='lazy' src="https://1.bp.blogspot.com/-NOTLpBgpRLc/Xwk5bVBBATI/AAAAAAAAAHs/ewvriUTtVTIAuAwazYhCsgWD1g1Pg4gOgCPcBGAsYHg/w1080-h546-p-k-no-nu/20200627_200619.jpg"/>
+							<div class="introduce-tag">
+								<span class="h4">Codemai Travels</span>
+								<span class="h5">codemai.blogspot.com</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</b:includable>
+			<!-- Chọn ảnh hiển thị -->
+			<b:includable id='labelImage' var='label'>
+				<b:if cond='data:label == "quang-binh"'>
+					<img expr:alt='data:view.title.escaped' expr:title='data:view.title.escaped' loading='lazy' src='https://www.quangbinhtravel.vn/wp-content/uploads/2020/02/ben-thuyen-phong-nha.jpg'/>
+				<b:elseif cond='data:label == "an-gi"'/>
+					<img expr:alt='data:view.title.escaped' expr:title='data:view.title.escaped' loading='lazy' src='https://foodtechmaster.vn/wp-content/uploads/2019/04/h%C6%B0%C6%A1ng-li%E1%BB%87u-th%E1%BB%B1c-ph%E1%BA%A9m-t%E1%BB%B1-nhi%C3%AAn.jpg'/>
+				<b:else/>
+					<img expr:alt='data:view.title.escaped' expr:title='data:view.title.escaped' loading='lazy' src='https://1.bp.blogspot.com/-NOTLpBgpRLc/Xwk5bVBBATI/AAAAAAAAAHs/ewvriUTtVTIAuAwazYhCsgWD1g1Pg4gOgCPcBGAsYHg/w1080-h546-p-k-no-nu/20200627_200619.jpg'/>
+				</b:if>
+			</b:includable>
+			<b:includable id='image'>
+				<!-- Trang chủ -->
+				<b:if cond='data:view.isHomepage'>
+					<img expr:alt='data:view.title.escaped' expr:title='data:view.title.escaped' loading='lazy' src='//2.bp.blogspot.com/-ySS7YchtRMs/VmPdLtZP_vI/AAAAAAAACP8/m5KkZjCPV_M/w2048-h1152-p-k-no-nu/57.jpg'/>
+					<!-- Chọn ảnh hiển thị nếu trang là trang tìm kiếm -->
+				<b:elseif cond='data:view.isSearch'/>
+					<b:if cond='data:view.search.label'>
+						<b:include name='labelImage' data='data:view.search.label.escaped'/>
+					<b:else/>
+						<img expr:alt='data:view.title.escaped' expr:title='data:view.title.escaped' loading='lazy' src='//2.bp.blogspot.com/-ySS7YchtRMs/VmPdLtZP_vI/AAAAAAAACP8/m5KkZjCPV_M/w2048-h1152-p-k-no-nu/57.jpg'/>
+					</b:if>
+				</b:if>
+			</b:includable>
+			<!-- Ảnh ở đầu trang -->
+			<b:includable id='headerMeta' var='post'>
+				<div class="post-header-image">
+					<!-- Nếu là trang bài viết và trang tĩnh -->
+					<b:if cond='data:view.isSingleItem'>
+						<b:include name='headerImage' data='post'/>
+						<h1 class="post-title"><data:post.title/></h1>
+					<!-- Nếu là các trang khác -->
+					<b:else/>
+						<!-- Chọn ảnh hiển thị -->
+						<b:include name='image'/>
+						<h1 class="post-title">
+							<b:if cond='data:view.isSearch'>
+								<b:if cond='data:view.search.label'>
+									<b:include name='vietlabel' data='data:view.search.label.escaped'/>
+								<b:elseif cond='data:view.search.query'/>
+									<b:eval expr='data:view.search.query.escaped'/>
+								<b:else/>
+									<data:messages.olderPosts/>
+								</b:if>
+							<b:elseif cond='data:view.isArchive'/>
+								<data:blog.pageName/>
+							<b:elseif cond='data:view.isError'/>
+								Page 404
+							<b:else/>
+								<span class="opacity-0">Muối Travels</span>
+							</b:if>
+						</h1>
+					</b:if>
+				</div>
+			</b:includable>
+			<!-- Dành cho một bài viết -->
+
+			<b:includable id='post' var='post'>
+				<!-- Image -->
+				<b:include name='headerMeta' data='post'/>
+				<main class="post-entry">
+					<article>
+						<b:include name='postBody' data='post'/>
+					</article>
+				</main>
+			</b:includable>
+			<b:includable id='postBody' var='post'>
+				<data:post.body/>
+			</b:includable>
+			<!-- Xcs định một hay nhiều bài viết -->
+			<b:includable id='postsOrPost' var='post'>
+				<b:include name='post' cond='data:view.isSingleItem' data='post'/>
+				<b:include name='posts' cond='!data:view.isSingleItem' data='post'/>
+			</b:includable>
+			<!-- Nhiều bài viết -->
+			<b:includable id='posts' var='post'>
+				<div class="_post">
+					<a class="post" expr:href='data:post.url'>
+						<b:include name='headerImage' data='post'/>
+						<h2 class="h4 _post-title"><data:post.title/></h2>
+					</a>
+				</div>
+			</b:includable>
+		</b:widget>
+	    <b:widget id='PopularPosts1' mobile='yes' locked='false' title='Popular Posts' type='PopularPosts' version='2' visible='true'>
+	        <b:includable id='main'>
+		        <b:if cond='data:view.isSingleItem'>
+		        	<div class="group">Recommended for you</div>
+		        	<div class="posts-list">
+			        	<b:loop values='data:posts' var='post'>
+			        		<div class="_post">
+			        			<a class="post" expr:href='data:post.url'>
+			        				<b:include name='headerImage' data='post'/>
+			        				<h2 class="h4 _post-title"><data:post.title/></h2>
+			        			</a>
+			        		</div>
+			        	</b:loop>
+			        </div>
+			    </b:if>
+	    	</b:includable>
+		</b:widget>
+	</b:section>
+
+
+	<footer class="_footer flex justify-content-center align-items-center">
+		<div class="footer flex flex-column justify-content-center align-items-center">
+			<div class="footer-image">
+				<img expr:alt='data:view.title.escaped' expr:title='data:view.title.escaped' loading='lazy' src="https://3.bp.blogspot.com/-V4Hvj8OtDfQ/VLlY5ZUOAII/AAAAAAAAAp4/yP6CwtuMJ1g/w2048-h1152-p-k-no-nu/1dPsxhw.jpg"/>
+			</div>
+			<ul class="footer-links flex flex-row justify-content-center flex-wrap-x2">
+				<li>
+					<span><a href='/'>About me</a></span>
+				</li>
+				<li>
+					<span><a href='/'>Đi đâu đây</a></span>
+				</li>
+				<li>
+					<span><a href='/'>Bản quyền</a></span>
+				</li>
+				<li>
+					<span><a href='/'>Privacy Policy</a></span>
+				</li>
+			</ul>
+			<div class="copyright">© COPYRIGHT <data:blog.title/></div>
+		</div>
+	</footer>
+	<script>
+		Array.prototype.forEach.call(document.querySelectorAll('.separator a'), (el) => {
+		   try{ el.removeAttribute('style') ;} catch(e) {};
+		});
+		document.querySelector('.open-menu-button').addEventListener('click',function(){
+			document.querySelector('.menu').classList.toggle('show-menu');
+		})
+	</script>
+</body> </html>
