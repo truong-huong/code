@@ -631,7 +631,7 @@
 					</div>
 					<div class="introduce-meta">
 						<div class='introduce-image'>
-							<img expr:alt='data:view.title.escaped' expr:title='data:view.title.escaped' loading='lazy' src="https://1.bp.blogspot.com/-NOTLpBgpRLc/Xwk5bVBBATI/AAAAAAAAAHs/ewvriUTtVTIAuAwazYhCsgWD1g1Pg4gOgCPcBGAsYHg/w1080-h546-p-k-no-nu/20200627_200619.jpg"/>
+							<img expr:alt='data:view.title.escaped' expr:title='data:view.title.escaped' loading='lazy' src="https://3.bp.blogspot.com/-FON0MCYWdDg/VmPTnusrmBI/AAAAAAAACPA/KM1irV5o9X8/w480-h480-p-k-no-nu/62.jpg"/>
 							<div class="introduce-tag">
 								<span class="h4">Codemai Travels</span>
 								<span class="h5">codemai.blogspot.com</span>
@@ -647,7 +647,7 @@
 				<b:elseif cond='data:label == "an-gi"'/>
 					<img expr:alt='data:view.title.escaped' expr:title='data:view.title.escaped' loading='lazy' src='https://foodtechmaster.vn/wp-content/uploads/2019/04/h%C6%B0%C6%A1ng-li%E1%BB%87u-th%E1%BB%B1c-ph%E1%BA%A9m-t%E1%BB%B1-nhi%C3%AAn.jpg'/>
 				<b:else/>
-					<img expr:alt='data:view.title.escaped' expr:title='data:view.title.escaped' loading='lazy' src='https://1.bp.blogspot.com/-NOTLpBgpRLc/Xwk5bVBBATI/AAAAAAAAAHs/ewvriUTtVTIAuAwazYhCsgWD1g1Pg4gOgCPcBGAsYHg/w1080-h546-p-k-no-nu/20200627_200619.jpg'/>
+					<img expr:alt='data:view.title.escaped' expr:title='data:view.title.escaped' loading='lazy' src='https://2.bp.blogspot.com/-ZrQt8HH0_WM/VLj8AcgXW7I/AAAAAAAAAl0/Gi0zTPkwfMw/w2048-h1152-p-k-no-nu/paly.jpg'/>
 				</b:if>
 			</b:includable>
 			<b:includable id='image'>
