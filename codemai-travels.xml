@@ -385,11 +385,11 @@
 		margin: 100px auto 20px auto;
 	}
 	.post-pagination {
-		display: grid;
+	    display: grid;
 	    grid-template-columns: auto auto auto;
 	    margin: 50px 20px 20px 20px;
 	    font-family: 'Sriracha', cursive;
-
+	    font-size:large;
 	}
 	.post-pagination-section {
 		color: #000;
