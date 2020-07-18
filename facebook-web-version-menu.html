@@ -1,0 +1,281 @@
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;display=swap" rel="stylesheet" />
+<title>Facebook Web Version Style Drop Down Menu</title>
+<style type="text/css">
+._nav {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    position: relative;
+
+    /* Có thể sửa cái này theo ý thích của các ông */
+    font-family: open sans, sans-serif; 
+    font-weight: 400;
+    line-height: 1.6;
+    color: #050505;
+    box-sizing: border-box;
+
+}
+._nav * {
+	box-sizing: border-box;
+}
+._nav a {
+	text-decoration: none;
+	color: #050505;
+}
+._toggle-menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #000;
+    background-color: #F2F3F5;
+    width: 35px;
+    height: 35px;
+}
+
+._toggle-menu-button-actived {
+    color: #377dff;
+}
+
+._menu-admin-info {
+    display: flex;
+    flex-direction: column;
+}
+
+._menu-admin-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+._menu-admin-contact {
+    font-size: 14px;
+    color: #65676b;
+}
+
+._menu-admin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+._menu-admin > div > img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+._sub-menu-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+._sub-menu-item,
+._show-hide-menu-button,
+._show-menu-title {
+    display: inline-grid;
+    grid-template-columns: 40px auto 40px;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+
+._menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: large;
+    color: #828282;
+}
+
+._background-button {
+    background-color: #CCCCCC;
+}
+
+._sub-menu-title {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+._sub-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+._sub-container ._sub-menu-item,
+._show-hide-menu-button {
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+._sub-menu-item:hover,
+._show-hide-menu-button:hover {
+    background-color: #F2F3F5;
+}
+
+._sub-menu-container {
+    display: none;
+}
+
+._menu-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+._show > ._sub-menu-container {
+    display: block;
+}
+
+._hidden {
+    display: none;
+}
+
+._nav-menu {
+    position: absolute;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 4px 11px rgba(113, 134, 157, .1);
+    width: 100%;
+    padding: 15px;
+    max-width: 320px;
+		width: 95%;
+	box-sizing: border-box;
+}
+</style>
+ 
+<div class="_nav">
+    <div class="_nav-section">
+        <span class="_toggle-menu-button">
+			<svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M17.4,6.2H0.6C0.3,6.2,0,5.9,0,5.5V4.1c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,5.9,17.7,6.2,17.4,6.2z M17.4,14.1H0.6c-0.3,0-0.6-0.3-0.6-0.7V12c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,13.7,17.7,14.1,17.4,14.1z"></path>
+            </svg>
+        </span>
+    </div>
+    <div class="_nav-menu  _hidden">
+        <div class="_nav-section _hidden-element">
+            <div class="_menu-admin">
+                <div>
+                    <img src="https://i.pinimg.com/736x/e3/f3/4d/e3f34de992ae4267f272550a5935447f.jpg" />
+                </div>
+                <div class="_menu-admin-info">
+                    <span class="_menu-admin-name">Trương Hướng</span>
+                    <span class="_menu-admin-contact">codemai.blogspot.com</span>
+                </div>
+            </div>
+            <ul class="_sub-container">
+                <li >
+                    <div class="_show-hide-menu-button">
+                        <span class='_menu-button _background-button' aria-hidden='true'><i class="fas fa-cog"></i></span>
+                        <span class="_sub-menu-title">Setting</span>
+                        <span class='_menu-button' aria-hidden='true'><i class="fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="_sub-menu-container">
+                        <ul class="_sub-container">
+                            <li>
+                            	<a class="_sub-menu-item" href='/'>
+	                                <span class='_menu-button _background-button' aria-hidden='true'><i class="fas fa-cog"></i></span>
+	                                <span class="_sub-menu-title">Cài đặt chung</span>
+                            	</a>
+                            </li>
+                            <li>
+                            	<a class="_sub-menu-item" href='/'>
+	                                <span class='_menu-button _background-button' aria-hidden='true'><i class="fas fa-user"></i></span>
+	                                <span class="_sub-menu-title">Cài đặt riêng</span>
+	                            </a>
+                            </li>
+                            <li>
+                            	<a class="_sub-menu-item" href='/'>
+	                                <span class='_menu-button _background-button' aria-hidden='true'><i class="fas fa-key"></i></span>
+	                                <span class="_sub-menu-title">Cài đặt bảo mật</span>
+	                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li >
+                    <div class="_show-hide-menu-button">
+                        <span class='_menu-button _background-button' aria-hidden='true'><i class="fas fa-cog"></i></span>
+                        <span class="_sub-menu-title">Security</span>
+                        <span class='_menu-button' aria-hidden='true'><i class="fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="_sub-menu-container">
+                        <ul class="_sub-container">
+                            <li>
+                            	<a class="_sub-menu-item" href='/'>
+	                                <span class='_menu-button _background-button' aria-hidden='true'><i class="fas fa-lock"></i></span>
+	                                <span class="_sub-menu-title">Privacy</span>
+                            	</a>
+                            </li>
+                            <li>
+                            	<a class="_sub-menu-item" href='/'>
+	                                <span class='_menu-button _background-button' aria-hidden='true'><i class="fas fa-tags"></i></span>
+	                                <span class="_sub-menu-title">Tags</span>
+	                            </a>
+                            </li>
+                            <li>
+                            	<a class="_sub-menu-item" href='/'>
+	                                <span class='_menu-button _background-button' aria-hidden='true'><i class="far fa-user-circle"></i></span>
+	                                <span class="_sub-menu-title">Account</span>
+	                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li >
+                    <div class="_show-hide-menu-button">
+                        <span class='_menu-button _background-button' aria-hidden='true'><i class="fas fa-users"></i></span>
+                        <span class="_sub-menu-title">Friends</span>
+                        <span class='_menu-button' aria-hidden='true'><i class="fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="_sub-menu-container">
+                        <ul class="_sub-container">
+                            <li>
+                            	<a class="_sub-menu-item" href='/'>
+	                                <span class='_menu-button _background-button' aria-hidden='true'><i class="fas fa-paper-plane"></i></span>
+	                                <span class="_sub-menu-title">Message</span>
+                            	</a>
+                            </li>
+                            <li>
+                            	<a class="_sub-menu-item" href='/'>
+	                                <span class='_menu-button _background-button' aria-hidden='true'><i class="fas fa-pencil-alt"></i></span>
+	                                <span class="_sub-menu-title">Offline</span>
+	                            </a>
+                            </li>
+                            <li>
+                            	<a class="_sub-menu-item" href='/'>
+	                                <img src="https://vignette.wikia.nocookie.net/dorepedia/images/d/d6/Jaian02.png/revision/latest/scale-to-width-down/340?cb=20150429015518&path-prefix=vi"/>
+	                                <span class="_sub-menu-title">Online</span>
+	                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li >
+                	<a class="_sub-menu-item" href='/'>
+	                    <span class='_menu-button _background-button' aria-hidden='true'><i class="fab fa-facebook-f"></i></span>
+	                    <span class="_sub-menu-title">Open Facebook</span>
+	                    <span class='_menu-button' aria-hidden='true'><i class="fas fa-angle-right"></i></span>
+                	</a>
+                </li>
+                <li >
+                	<a class="_sub-menu-item" href='/'>
+	                    <img src="https://afamilycdn.com/k:thumb_w/600/4a4pVwK3xucccccccccccctBPajGwV/Image/2014/01/xuka-xinh-dep-305d3/cac-nang-cong-so-hoc-gi-tu-nhan-vat-xuka-trong-truyen-doremon.jpg"/>
+	                    <span class="_sub-menu-title">Girlfriend</span>
+	                    <span class='_menu-button' aria-hidden='true'><i class="fas fa-angle-right"></i></span>
+                	</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="_show-here _sub-container  _hidden">
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+	function _checkbackbutton(){document.querySelector(".back-menu").addEventListener("click",function(){document.querySelector("._show-here").classList.add("_hidden"),document.querySelector("._show-here").innerHTML="",document.querySelector("._hidden-element").classList.remove("_hidden")})}document.querySelector("._toggle-menu-button").addEventListener("click",function(){if(document.querySelector("._nav-menu").classList.toggle("_hidden"),!document.querySelector("._nav-menu").classList.contains("_hidden"))try{document.querySelector(".back-menu").click()}catch(e){}this.classList.toggle("_toggle-menu-button-actived")}),Array.prototype.forEach.call(document.querySelectorAll("._show-hide-menu-button"),e=>{e.addEventListener("click",function(){document.querySelector("._hidden-element").classList.add("_hidden");var e=this.parentNode.cloneNode(!0);e.classList.add("_show");var t=`<a class='_menu-button back-menu' aria-hidden='true'><i class="fas fa-arrow-left"></i></a><span class='_menu-title'>${e.querySelector("._show-hide-menu-button").querySelector("._sub-menu-title").innerText}</span>`;e.querySelector("._show-hide-menu-button").innerHTML=t,e.querySelector("._show-hide-menu-button").classList.add("_show-menu-title"),e.querySelector("._show-hide-menu-button").classList.remove("_show-hide-menu-button"),document.querySelector("._show-here").appendChild(e),document.querySelector("._show-here").classList.remove("_hidden"),_checkbackbutton()})});/*codevodoi.blogspot.com*/
+</script>
