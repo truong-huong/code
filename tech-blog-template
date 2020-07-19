@@ -1165,7 +1165,7 @@
                             <input class='checkbox_drop' id='menu_links' type='checkbox' />
                             <div class='drop_menu drop_left'>
                                 <div class='drop_menu_container menu_links'>
-                                    <a href='/'><span icon='home' />Home</a>
+                                    <a href='https://codemai.blogspot.com' rel='dofollow'><span icon='home' />Home</a>
                                     <a href='/search/label/linux'><span icon='linux' />Linux</a>
                                     <a href='/search/label/Termux'><span class='icon-20-20' icon='termux' />Termux</a>
                                     <a href='/search/label/Blogspot'><span class='icon-20-20' icon='blogger' />Blogger</a>
@@ -2103,6 +2103,6 @@
         //]]>
     </script>
 </b:if>
-<!-- Kết thúc phần hiển thị trên web -->
+<!-- codemai.blogspot.com  -->
 
 </html>
