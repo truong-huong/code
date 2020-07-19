@@ -1,0 +1,143 @@
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+ 
+<link href="https://fonts.googleapis.com/css2?family=Sriracha&amp;display=swap" rel="stylesheet"/>
+<title>unlimited dropdown menu</title>
+<link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+<style type="text/css">
+	body {
+		background-color: #f0f0f0;
+		font-family: 'Rowdies', cursive;
+	}
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+	* {
+		box-sizing: border-box;
+	}
+	._menu {
+		text-transform: capitalize;
+	}
+	._menu ul {
+		list-style: none;
+		padding: 0;
+	}
+	._menu li {
+		position: relative;
+		cursor: pointer;
+	}
+	._menu li:hover {
+		background-color: #3598DC
+	}
+	/* Set all the padding and margin properties of the following code with the same number */
+	.menu > li {
+		padding: 15px;
+	}
+	.menu > li > .sub-menu {
+		margin-top: 15px;
+	}
+	.sub-menu li {
+		padding: 15px;
+	}
+	/* Stop here */
+
+	.sub-menu {
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		width: 200px;
+		background-color: #fff;
+		box-shadow:
+		  0 7px 30px -10px rgba(150,170,180,0.5);
+		  left: 0;
+	}
+	.sub-menu .sub-menu {
+		left: 100%;
+		top: 0;
+	}
+	.menu {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		background-color: #fff;
+	}
+	.show-menu {
+		display: flex !important;
+	}
+	.open-menu {
+		display: none;
+		padding: 10px;
+		margin-bottom: 20px;
+		background-color: #fff;
+	}
+	.menu li:hover > .sub-menu {
+		display: flex;
+	}
+	/*  Reponsive */
+	@media (max-width:768px) {
+		._menu ul {
+			flex-direction: column;
+			width: 100%;
+		}
+		.menu {
+			display: none;
+		}
+		.open-menu {
+			display: block;
+		}
+		.sub-menu {
+			position: relative;
+			margin-top: 20px !important;
+		}
+		.sub-menu .sub-menu {
+			left: 0;
+			top: 0;
+		}
+	}
+</style>
+<div class="_menu">
+	<div class="menu-container">
+		<span class="open-menu">Menu</span>
+		<ul class="menu">
+			<li><a href='https://codemai.blogspot.com' rel='dofollow'><span>Home</span></a></li>
+			<li><span>Dropdown menu</span>
+				<ul class="sub-menu">
+					<li><span>Level One</span>
+						<ul class="sub-menu">
+							<li><span>Level Two</span></li>
+							<li><span>Level Two</span></li>
+							<li><span>Level Two</span></li>
+						</ul>
+					</li>
+					<li ><span>Level One</span>
+						<ul class="sub-menu">
+							<li><span>Level Two</span></li>
+							<li><span>Level Two</span></li>
+							<li><span>Level Two</span>
+								<ul class="sub-menu">
+									<li><span>Level Three</span></li>
+									<li><span>Level Three</span></li>
+									<li><span>Level Three</span></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><span>Level One</span>
+						<ul class="sub-menu">
+							<li><span>Level Two</span></li>
+							<li><span>Level Two</span></li>
+							<li><span>Level Two</span></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><span>Download</span></li>
+		</ul>
+	</div>
+</div>
+<script>
+	document.querySelector('.open-menu').addEventListener('click',function(){
+		document.querySelector('.menu').classList.toggle('show-menu')
+	});
+</script>
