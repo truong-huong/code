@@ -1,0 +1,2108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:js='false' b:layoutsVersion='3' lang='vi' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr' xmlns:og='http://opengraphprotocol.org/schema/'>
+
+&lt;head&gt;
+<meta charset='utf-8' />
+<meta content='width=device-width,initial-scale=1.0' name='viewport' />
+<link href='https://1.bp.blogspot.com' rel='preconnect' />
+<link href='https://2.bp.blogspot.com' rel='preconnect' />
+<link href='https://3.bp.blogspot.com' rel='preconnect' />
+<link href='https://4.bp.blogspot.com' rel='preconnect' />
+<link href='https://cdn.jsdelivr.net' rel='preconnect' />
+<link href='https://cdnjs.cloudflare.com' rel='preconnect' />
+<link href='https://apis.google.com' rel='preconnect' />
+<link href='https://www.blogger.com' rel='preconnect' />
+<title>
+    <data:view.title/>
+</title>
+<b:include name='all-head-content' data='blog' />
+<b:skin>
+    <![CDATA[
+    
+      /* <Group description="Body">
+    <Variable name="body.background" description="Background" type="background" color="$(body.background.color)" default="$(color) none repeat scroll top left"  value="#ffffff url(#) no-repeat scroll top center /* Credit: Mae Burke (http://www.offset.com/photos/389967) */;"/>
+
+    <Variable name="body.gradient.first" description="First Color" type="color" default="#f00" value="#ff0000"/>
+    <Variable name="body.gradient.second" description="Second Color" type="color" default="#ffa500" value="#ffa500"/>
+    <Variable name="body.gradient.third" description="Third Color" type="color" default="#ff0" value="#ffff00"/>
+    <Variable name="body.gradient.fourth" description="Fourth Color" type="color" default="#008000" value="#008000"/>
+    <Variable name="body.gradient.fifth" description="Fifth Color" type="color" default="#0591d6" value="#0591d6"/>
+
+    <Variable name="body.background.color" description="Background color" type="color" default="transparent"  value="transparent"/>
+    <Variable name="body.title.font.small" description="Title font (small)" type="font" default="$(garamond20)"  value="bolder 900 14px Inconsolata,monospace, sans-serif"/>
+    <Variable name="body.title.font.large" description="Title font (large)" type="font" default="$(garamond24)"  value="bolder 900 24px Inconsolata,monospace, sans-serif"/>
+    <Variable name="body.title.color" description="Title color" type="color" default="#000"  value="#ffffff"/>
+    <Variable name="body.action.font.small" description="Action font (small)" type="font" default="$(Inconsolata,monospace12)"  value="bolder 900 12px Inconsolata,monospace, sans-serif"/>
+    <Variable name="body.action.font.large" description="Action font (large)" type="font" default="$(Inconsolata,monospace14)"  value="bolder 900 14px Inconsolata,monospace, sans-serif"/>
+    <Variable name="body.action.color" description="Action color" type="color" default="#e52e71"  value="#e52e71"/>
+    <Variable name="body.text.font" description="Text font" type="font" default="$(garamond20)"  value="bolder 900 14px Inconsolata,monospace, sans-serif"/>
+    <Variable name="body.text.color" description="Text color" type="color" default="#000"  value="#ffffff"/>
+    <Variable name="body.link.color" description="Link color" type="color" default="#4267b2"  value="#4267b2"/>
+    <Variable name="body.widget.title.font.small" description="Gadget title font (small)" type="font" default="$(Inconsolata,monospace12)"  value="bolder 900 12px Inconsolata,monospace, sans-serif"/>
+    <Variable name="body.widget.title.font.large" description="Gadget title font (large)" type="font" default="$(Inconsolata,monospace14)"  value="bolder 900 14px Inconsolata,monospace, sans-serif"/>
+    <Variable name="body.widget.title.color" description="Gadget title color" type="color" default="rgba(0, 0, 0, 0.54)"  value="rgba(0, 0, 0, 0.54)"/>
+    <Variable name="body.filter.background.color" description="Filter background color" type="color" default="#302c24"  value="#302c24"/>
+    <Variable name="body.filter.text.font.small" description="Filter text font (small)" type="font" default="$(Inconsolata,monospace12)"  value="bolder 900 12px Inconsolata,monospace, sans-serif"/>
+    <Variable name="body.filter.text.font.large" description="Filter text font (large)" type="font" default="$(Inconsolata,monospace14)"  value="bolder 900 14px Inconsolata,monospace, sans-serif"/>
+    <Variable name="body.filter.text.color" description="Filter text color" type="color" default="rgba(255, 255, 255, 0.54)"  value="rgba(255, 255, 255, 0.54)"/>
+    <Variable name="body.filter.keyword.font.small" description="Filter keyword font (small)" type="font" default="$(Inconsolata,monospaceBold12)"  value="normal 700 12px Inconsolata,monospace, sans-serif"/>
+    <Variable name="body.filter.keyword.font.large" description="Filter keyword font (large)" type="font" default="$(Inconsolata,monospaceBold14)"  value="normal 700 14px Inconsolata,monospace, sans-serif"/>
+    <Variable name="body.filter.keyword.color" description="Filter keyword color" type="color" default="rgba(255, 255, 255, 0.87)"  value="rgba(255, 255, 255, 0.87)"/>
+    <Variable name="body.filter.link.font.small" description="Filter link font (small)" type="font" default="$(Inconsolata,monospaceBold12)"  value="normal 700 12px Inconsolata,monospace, sans-serif"/>
+    <Variable name="body.filter.link.font.large" description="Filter link font (large)" type="font" default="$(Inconsolata,monospaceBold14)"  value="normal 700 14px Inconsolata,monospace, sans-serif"/>
+    <Variable name="body.filter.link.color" description="Filter link color" type="color" default="#4267b2"  value="#4267b2"/> </Group> */
+      ]]>
+</b:skin>
+<link href='https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;display=swap' rel='stylesheet' />
+<noscript>
+    <link href='https://cdn.jsdelivr.net/gh/truong-huong/code-vo-doi/should.css' rel='stylesheet' type='text/css' />
+    <link href='https://cdn.jsdelivr.net/gh/truong-huong/code-vo-doi/font-awesome-custom.css' rel='stylesheet' type='text/css' />
+</noscript>
+<meta content='A9CE3B194FE3B1070A9DE74282D3F33A' name='msvalidate.01' />
+<meta content='8fe87932214c09f6' name='yandex-verification' />
+<style>
+    a {
+        all: unset;
+        cursor: pointer;
+    }
+    
+    .separator a[style] {
+        all: unset !important;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    :root {
+        text-rendering: optimizeLegibility;
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    
+    html {
+        padding: 0;
+        margin: 0;
+        scroll-behavior: smooth;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    #postBody a[href] {
+        word-wrap: break-word;
+        white-space: pre-wrap;
+    }
+    
+    body {
+        position: relative;
+        font-weight: 400;
+        margin: 10px;
+        padding: 10px;
+        color: #333;
+        letter-spacing: normal;
+        word-spacing: normal;
+        background-color: #f9fafb;
+        font-display: swap;
+        letter-spacing: 1.3px;
+        font-family: &#39;
+        Roboto Slab&#39;
+        ;
+        hyphens: none;
+        line-height: 1.8 !important;
+        position: relative;
+        tab-size: 4;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        padding: 0;
+        margin: 0;
+        font-family: &#39;
+        Roboto Slab&#39;
+        ;
+    }
+    
+    header {
+        background-color: #fff;
+        width: 100%;
+        font-family: &#39;
+        Roboto Slab&#39;
+        ;
+    }
+    
+    header section:first-child {
+        display: flex;
+        padding: 10px;
+        flex-direction: row;
+        justify-content: space-between;
+        -webkit-flex-flow: row wrap;
+        align-self: flex-start;
+    }
+    /* MAIN */
+    
+    h1 {
+        margin-bottom: 20px;
+        font-size: 162.5%;
+        text-align: center;
+    }
+    
+    article {
+        margin: 0 auto;
+    }
+    
+    h2 {
+        color: #596D9F;
+        font-size: 156.25%;
+        position: relative;
+    }
+    
+    h2:not(:first-child),
+    h3:not(:first-child) {
+        margin: 20px 0;
+    }
+    /** heets */
+    
+    ::-webkit-scrollbar {
+        width: 10px;
+        height: 5px;
+    }
+    /* Track */
+    
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    /* Handle */
+    
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+    /* Handle on hover */
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    
+    img {
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        max-width: 100%;
+    }
+    
+    img:hover {
+        -webkit-filter: grayscale(1);
+        cursor: pointer;
+        filter: grayscale(1);
+        transition: all .3s ease-in-out;
+    }
+    
+    body,
+    html {
+        background-color: #0f0e17;
+        color: #fffffe;
+        line-height: 1.5;
+        letter-spacing: 1.3px;
+        font-family: "Roboto Slab";
+    }
+    /* MAC DINH */
+    
+    .checkbox_drop {
+        display: none;
+    }
+    /* DROP MENU */
+    
+    .drop_menu {
+        display: none;
+        position: absolute;
+        transition: .2s ease;
+        z-index: 100;
+    }
+    
+    .menu_share .drop_menu_container a {
+        display: inline-block;
+        padding: 5px;
+    }
+    
+    .drop_menu_container {
+        margin-top: 10px;
+        padding: 10px 10px;
+        border-radius: 10px;
+        background-color: #ff8906;
+        background-image: linear-gradient(to top left, #ff8a00, #e52e71)!important;
+        box-shadow: 0 4px 80px #070509;
+        color: #fffffe;
+    }
+    
+    .drop_right {
+        right: 4%;
+    }
+    /*  HEADER */
+    
+    #header {
+        padding: 0 10px;
+    }
+    
+    .header_container {
+        margin-top: 10px;
+        display: grid;
+        -ms-grid-columns: 140px auto 140px;
+        grid-template-columns: 140px auto 140px;
+    }
+    
+    .header_container label i {
+        display: flex;
+        width: 35px;
+        height: 35px;
+        align-items: center;
+        background-color: #ff8906;
+        justify-content: center;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+    
+    .header_section {
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+    }
+    
+    .header_section:first-child {
+        justify-content: flex-start;
+    }
+    
+    .header_section:last-child {
+        justify-content: flex-end;
+    }
+    
+    .checkbox_drop:checked ~ .drop_menu {
+        display: block;
+        transition: .2s ease;
+    }
+    
+    .menu_links {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #main {
+        margin-top: 20px;
+    }
+    /* SEARCH */
+    
+    #search {
+        outline: none;
+        border-style: none;
+        background-color: transparent;
+        font-weight: bolder;
+        font-size: 110%;
+        width: 200px;
+        font-family: "Space Mono", Consolas, Menlo, Monaco, "Courier New", monospace;
+    }
+    /* THEME STYLES */
+    
+    .menu_links a {
+        padding: 5px 0;
+        width: 160px;
+        font-weight: bold;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 5px 0;
+    }
+    /* ABOUT BLOG */
+    
+    .introduce {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .introduce &gt;
+    div:last-child:after {
+        display: flex;
+        content: &#39;
+        &#39;
+        ;
+        width: 150px;
+        height: 2.5px;
+        border-radius: 5px;
+        background-color: red;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    /* article */
+    
+    .article * {
+        max-width: 100%;
+    }
+    
+    .article {
+        display: flex;
+        max-width: 800px;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    
+    .article_item {
+        margin-bottom: 30px;
+        background: #17141d;
+        box-shadow: 0 4px 80px #070509;
+        padding: 1rem;
+        border-radius: 16px;
+        transition: all .3s ease-in-out;
+    }
+    
+    .article_item:hover {
+        transform: scale(0.99);
+        transition: all .3s ease-in-out;
+    }
+    
+    .article_item a {
+        all: unset;
+        cursor: pointer;
+    }
+    
+    .article_item h2 {
+        font-size: inherit;
+        padding: 0;
+        margin: 0;
+        font-size: 115%;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+    
+    .article_item_intro {
+        font-size: 90%;
+        color: #a7a9be;
+    }
+    
+    .article_item_intro p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    .article_item_metadata {
+        font-size: 80%;
+    }
+    
+    .article_item_author_name {
+        background-color: #f25f4c;
+        margin: 0 2.5px;
+        line-height: 1.8;
+        padding: 2.5px 8px;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    
+    .article_item_tagging a {
+        background-image: linear-gradient(to top left, #ff8a00, #e52e71)!important;
+        margin: 0 2.5px;
+        line-height: 2.5;
+        padding: 2.5px 8px;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    
+    .post_outer {
+        border-top: solid 1px #ff8906;
+        padding-top: 25px;
+        color: #a7a9be;
+    }
+    
+    .post_outer a {
+        border-bottom: dashed 1px red;
+        padding-bottom: 2.5px;
+        color: #d25801;
+        ff
+    }
+    
+    .post_outer h1,
+    .post_outer h2 {
+        color: #ff8906;
+        position: relative;
+    }
+    
+    .b {
+        font-family: "Space Mono", Consolas, Menlo, Monaco, "Courier New", monospace;
+        font-size: 115%;
+        padding: 2.5px 3px;
+        border-radius: 5px;
+        background-image: linear-gradient(to top left, #ff8a00, #e52e71)!important;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    blockquote .b {
+        margin: 2.5px 4.6px;
+    }
+    
+    .post_outer h2:before {
+        content: &#39;
+        #&#39;
+        ;
+        color: #f25f4c;
+        position: relative;
+        bottom: 5px;
+        font-size: 80%;
+        margin-right: 10px;
+    }
+    
+    .post_outer h2 {
+        font-family: "Space Mono", Consolas, Menlo, Monaco, "Courier New", monospace;
+    }
+    
+    .post_outer h3,
+    .post_outer h4,
+    .post_outer h5,
+    .post_outer h6 {
+        color: #f25f4c;
+    }
+    
+    .post_outer h1,
+    .post_outer h2,
+    .post_outer h3,
+    .post_outer h4,
+    .post_outer h5,
+    .post_outer h6 {
+        text-align: center;
+        margin: 40px auto;
+    }
+    
+    .post_outer img {
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+    /* */
+    
+    code[class*="language-"],
+    pre[class*="language-"] {
+        color: #5b6ac4;
+        text-align: left;
+        font-family: Consolas, Monaco, &#39;
+        Andale Mono&#39;
+        , &#39;
+        Ubuntu Mono&#39;
+        , monospace;
+        word-spacing: normal;
+        word-break: normal;
+        word-wrap: normal;
+        -moz-tab-size: 4;
+        -o-tab-size: 4;
+        font-size: 100%;
+        tab-size: 4;
+        -webkit-hyphens: none;
+        -moz-hyphens: none;
+        -ms-hyphens: none;
+        hyphens: none;
+    }
+    
+    pre[class*="language-"] {
+        white-space: pre;
+    }
+    
+    pre[class*="language-"]::-moz-selection,
+    pre[class*="language-"]::-moz-selection,
+    code[class*="language-"]::-moz-selection,
+    code[class*="language-"]::-moz-selection {
+        text-shadow: none;
+        background: #b3d4fc;
+    }
+    
+    pre[class*="language-"]::selection,
+    pre[class*="language-"]::selection,
+    code[class*="language-"]::selection,
+    code[class*="language-"]::selection {
+        text-shadow: none;
+        background: #b3d4fc;
+    }
+    
+    @media print {
+        code[class*="language-"],
+        pre[class*="language-"] {
+            text-shadow: none;
+        }
+    }
+    /* Code blocks */
+    
+    pre[class*="language-"] {
+        padding: 1em;
+        margin: 35px auto;
+        overflow: auto;
+        background-color: #282c34;
+        border-radius: 5px;
+    }
+    
+    :not(pre) &gt;
+    code {
+        padding: 2.4px 8.8px;
+        border-radius: 2.5px;
+        word-wrap: break-word;
+        font-weight: bold;
+        font-size: 100%;
+        white-space: pre-wrap;
+        margin: auto 1.5px;
+    }
+    
+    ;
+    :not(pre) &gt;
+    code[class*="language-"] {
+        padding: .1em;
+        border-radius: .3em;
+        white-space: pre-wrap;
+    }
+    /* Code blocks */
+    
+    .token.comment,
+    .token.block-comment,
+    .token.prolog,
+    .token.doctype,
+    .token.cdata {
+        color: #999;
+    }
+    
+    .token.punctuation {
+        color: #ccc;
+    }
+    
+    .token.tag,
+    .token.attr-name,
+    .token.namespace,
+    .token.deleted {
+        color: #e2777a;
+    }
+    
+    .token.function-name {
+        color: #6196cc;
+    }
+    
+    .token.boolean,
+    .token.number,
+    .token.function {
+        color: #f08d49;
+    }
+    
+    .token.property,
+    .token.class-name,
+    .token.constant,
+    .token.symbol {
+        color: #f8c555;
+    }
+    
+    .token.selector,
+    .token.important,
+    .token.atrule,
+    .token.keyword,
+    .token.builtin {
+        color: #cc99cd;
+    }
+    
+    .token.string,
+    .token.char,
+    .token.attr-value,
+    .token.regex,
+    .token.variable {
+        color: #7ec699;
+    }
+    
+    .token.operator,
+    .token.entity,
+    .token.url {
+        color: #67cdcc;
+    }
+    
+    .token.important,
+    .token.bold {
+        font-weight: bold;
+    }
+    
+    .token.italic {
+        font-style: italic;
+    }
+    
+    .token.entity {
+        cursor: help;
+    }
+    
+    .token.inserted {
+        color: green;
+    }
+    /* leave a comment */
+    
+    .section_box {
+        display: grid;
+        -ms-grid-columns: auto 320px auto;
+        grid-template-columns: auto 320px auto;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    [elements*=leave_a_comment] {
+        margin-top: 50px;
+        background-color: #ff8906;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bolder;
+    }
+    
+    [elements*=leave_a_comment] p {
+        color: black;
+        text-align: center;
+    }
+    
+    [elements*=leave_a_comment] a {
+        color: #fff;
+    }
+    
+    .section_info {
+        width: 90%;
+        max-width: 90%;
+        box-sizing: border-box;
+        padding: 5px;
+        background-image: linear-gradient(to top left, #ff8a00, #e52e71)!important;
+        box-shadow: 0 4px 80px #070509;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 115%;
+        font-family: "Space Mono", Consolas, Menlo, Monaco, "Courier New", monospace;
+        text-transform: uppercase;
+    }
+    
+    .dash {
+        width: 100%;
+        height: 2px;
+        background-color: red;
+    }
+    /* tagging_list */
+    
+    #tagging_list {
+        margin-top: 50px;
+        color: #000;
+    }
+    
+    #tagging_list a {
+        all: unset;
+        cursor: pointer;
+    }
+    
+    #tagging_list ul {
+        all: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+    #tagging_list ul li {
+        transition: all .3s ease-in-out;
+        display: block;
+        padding: 5px 10px;
+        margin: 5px;
+        background-color: #ff8906;
+        border-radius: 10px;
+        font-weight: bolder;
+    }
+    
+    #tagging_list ul li:hover {
+        background-image: linear-gradient(to top left, #ff8a00, #e52e71)!important;
+    }
+    
+    #tagging_list ul li:hover,
+    .post_pagination_section a {
+        transition: all .3s ease-in-out;
+        box-shadow: 0 5px 20px #17141d;
+        ;
+        transform: scale(1.2);
+        color: #fff;
+    }
+    
+    .post_pagination_section a:hover {
+        box-shadow: 0 20px 50px #17141d;
+        transition: all .3s ease-in-out;
+        transform: scale(1.05);
+    }
+    
+    .same_posts {
+        margin: 20px 0;
+        color: #000;
+        background: #17141d;
+        box-shadow: 0 4px 80px #070509;
+        padding: 1rem;
+        border-radius: 16px;
+    }
+    
+    .same_posts a {
+        all: unset;
+        cursor: pointer;
+    }
+    
+    .same_posts ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    .same_posts ul li {
+        padding: 5px;
+    }
+    
+    .same_posts ul li a:after {
+        font-family: &#39;
+        Font Awesome\ 5 Free&#39;
+        ;
+        content: &#39;
+        \f08d&#39;
+        ;
+        width: 10px;
+        height: 10px;
+        font-weight: 600;
+        margin-left: 5px;
+        margin-bottom: 2.5px;
+        font-size: 80%;
+        color: red;
+        transform: rotate(45deg);
+    }
+    /* popular posts */
+    
+    .popular_posts {
+        margin-top: 60px;
+    }
+    
+    .popular_posts ul {
+        margin: 0;
+        padding: 0;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .popular_posts ul li {
+        padding: 10px;
+    }
+    
+    .popular_posts ul li a,
+    .same_posts ul li a {
+        all: unset;
+        color: #ff8906;
+        cursor: pointer;
+        border-bottom: dotted 1px #e53170;
+        background-image: linear-gradient(to top left, #ff8a00, #e52e71)!important;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bolder;
+    }
+    
+    .post_pagination {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    
+    .post_pagination_section {
+        width: 200px;
+    }
+    
+    .post_pagination_section a {
+        padding: 5px;
+        background: #17141d;
+        box-shadow: 0 4px 80px #070509;
+        border-radius: 10px;
+        width: 100%;
+        color: #000;
+        display: block;
+        text-align: center;
+        font-size: 115%;
+        font-family: "Space Mono", Consolas, Menlo, Monaco, "Courier New", monospace;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    
+    .post_pagination_section a i {
+        background-image: linear-gradient(to top left, #ff8a00, #e52e71)!important;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .title {
+        display: inline-block;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #ff8906;
+        background-image: linear-gradient(to top left, #ff8a00, #e52e71)!important;
+        box-shadow: 0 4px 80px #070509;
+    }
+    
+    .title_1 {
+        color: #ff8906;
+    }
+    /* */
+    /* table */
+    
+    .column_table {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin: 15px 0;
+    }
+    
+    .column_table * {
+        box-sizing: border-box;
+    }
+    
+    .table_section {
+        display: flex;
+        flex-direction: row;
+        margin: 5px 0;
+        padding: 10px;
+    }
+    
+    .table_section_name,
+    .table_section_data {
+        align-items: flex-start;
+    }
+    
+    .table_section_name {
+        width: 25%;
+        font-weight: bolder;
+        background: inherit;
+    }
+    
+    .table_section_data code[class*="language-"],
+    .table_section_name code[class*="language-"] {
+        font-weight: bolder;
+        background: inherit;
+    }
+    
+    .table_section_data {
+        width: 75%;
+        margin-left: 15px;
+    }
+    
+    @media (min-width: 426px) {
+        .table_section:nth-child(odd) {
+            color: #ff8906
+        }
+        .column_table {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    }
+    
+    @media (max-width: 425px) {
+        .table_section {
+            flex-direction: column;
+        }
+        .section_box {
+            display: flex;
+            justify-content: center;
+        }
+        .section_box .dash {
+            display: none;
+        }
+        .table_section_name {
+            text-align: center;
+            width: 100%;
+            padding: 10px;
+            font-size: 112.5%;
+            white-space: nowrap;
+            overflow-x: auto;
+        }
+        .table_section_name:nth-child(odd) {
+            color: #fff;
+            background-image: linear-gradient(to top left, #ff8a00, #e52e71)!important;
+            box-shadow: 0 4px 80px #070509;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+    }
+    /* icon */
+    
+    [icon] {
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-right: 10px;
+    }
+    
+    [icon=anonymous] {
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAtFBMVEXn+N3////p+d/l99qOxWOLxWDA3qjp+eDg9NTH5rH+/v3u9ue+4aWhz36HwlqGwViEwFb5/PfT7cKt1o6k0oKVyG2TyWrx+Ozk8dre89HZ68rK5LbJ57S53Z623Zum0oWdz3iYynH3+/Tc8s6v2ZGazXOQx2eJw113uUT8/frm+NzZ8MnN6bmr1Iyr1oun1IaczXf1+vHy+O3Q677D5KzB46iz25Xj9dfg79TV7sV+vU6/4ach8O8ZAAABrElEQVQoz22T13qjMBCFByFhejG992LHvW2Sff/3WoIEcdY5N9I3/4zQHA3AzbLehbz0XC2NztyiGZ/jk05a53AsOt0VlJ9YjkojT0IeENqK14bg2HrClmBqa0BAhVDdmPvLgq3MTHkGmRKi+QzLgnmH/4TWJK8ojswUXoR2hjDhc6nx8AvP9OALx8YawS8SPVvmwDo5QMXzdPnDytVe4eBdTxC9THv6+Co6ejfK6z7mQCAhTT4MQ4MAScPg0fptsecgb3l21ufnfcTrfjiyyKOsoMznT+92U3gtiTSwUrEP3eHbzHlh+IYVcI+vbTF8H6u1YvtKmDFuBWknTvsPO5wv8ZDoxnFkiPTrdPobOcwtGNSJEAscXLyG2pLotrhCK141MpomGcHouUBqmCQRL5XUk54ycwttM2IFNxSjN7sj2LkCKzaj6b1jM2Edg1iLgFgutjcTtvbk5UlR2LoKm7WLRnYLZ7UtDpZJ9XMjE9E35CXsBk9zXgm6p9ZbtBoFoVSYtvLjL5EDu++Lh3r7mznY0KINt2CWoMT7ssPYdYSAQYaXDMtX/ErmnvQPNJAgPw3oQk8AAAAASUVORK5CYII=");
+    }
+    
+    [icon=home]:before {
+        content: &#39;
+        🏡&#39;
+        ;
+    }
+    
+    [icon=linux]:before {
+        content: &#39;
+        🐧&#39;
+        ;
+    }
+    
+    [icon=termux] {
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAOVBMVEUAAADh4eGpqal5eXkmJiZdXV00NDTr6+vDw8O9vb2ZmZmQkJBycnJjY2MrKysTExMNDQ1KSkpAQEDbsU+BAAAAOklEQVQY02OgK2DhYcEU5OfgFMAUZWPkxmIALzsrFlEuRj4CggjtBC1COEmQCQhY0RzPxgwEQgz0BAADvgFToOeIWAAAAABJRU5ErkJggg==");
+    }
+    
+    [icon=blogger] {
+        content: &#39;
+        &#39;
+        ;
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAk1BMVEXwajXwajXwajXwajXwajXwajXwajXwajXwajXwajXwajXwajXwajX////waDL/+vj0kWr//Pr+8ev0jmbyfU/+9fH3s5f++PX+9vP4vKTygVTziF7xdUTxcT7wbDf97ef96+T95t760L74uqL2pof1nnvzjGPzhVnyekv84db728771cf5yLT5xbH5v6j3r5L1mHMbAzHpAAAADHRSTlP89vPlpaGQFpqVHx0idLntAAAAvUlEQVQY023QaROCIBCAYbTDDhdEFM07r+zu//+6Vga0pt5P+siOw5L9yiaYqyPE3jpkNb1Pvia2eqBjRhd6cOiFSDPNtrJcVhFj8fn1iZKDyveoQRpUACwM8UtdjGiN2EcQdUnyADhm1KBgwG9SXvD8vc01egymwhP9xTidkdcH7IonDQoGcRdgLZ/HkxLHfCzC/w+uQrdowMSfrkIsa3ymKmWuUGmRCA8Tgb67Xp1Or275b8m7pfVt1sZ5A9o7FyuFKAFOAAAAAElFTkSuQmCC");
+    }
+    
+    [icon=javascript] {
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAclBMVEXw20/y3E9FQzP031Dz3VDq1U7m001XVDYyMzDYxkvfzEyzpkXj0E2mmkNsZjlJRzM2NzGhlUJ3cDvt2E7UwkrMu0m8rUa5qkaqnUOUikCMgz98dDxfWzdbVzdRTjU0NTAuMC/Qv0rOvUmtoESsn0Saj0A6VvqxAAAAiUlEQVQY083OWRKDIBAEUBBGCTsY9zXb/a8YTKQMOYHz0zWv+qPR6Q/j9AcIlsvyhzHXA4CbZn/DB16yIhfWjLZHKfarg5qnCIoVD0n/mtIvbGoO+yAFoW1WxS5HG/I7KYdVkW+vnbtu0VyblxiZ2LExjGUCqRDWyzj02qpqi6er82iIEkL3CPYGEV0GolRtf70AAAAASUVORK5CYII=");
+    }
+    
+    [icon=golang] {
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAMAAACAXYxPAAABiVBMVEVo1+Nq1eL///////tv1uLx//9t1OD8//901uHk+/15wsn1///u//9p1+R00dpx0t56w8z4///n/v90zdd3xs6Exs18w8rq//9z1N95zdZ9yNByx9B+vsPa9Pj//vS47PF209ub0deLy9Jqxc+ex8yDvsCAubzh///Z/P7e+v7x+/3C8Paq5Ovc7OZv2uap3+Sa3OTL4OPD3eF51d1+0dzr49um1thxztez0dSWzdPc2tDg28+Iyc++z82Jw8tyw8uqyMmZxMiRwsZ1v8Z5vsSiwsOJv8N6usCRvLl2tbiOsbV5sbWGsbRkrLOLsLFjmJ34//vN8vjv9fXU8fXs8fTz8u3C5+3Y7Ov18Orl6eqk4Oi24efF29mG0Nm31deH0NZ4yM+PycrA1cZxvsbZz8XH1MO1xL+vwrx4ubukxLlwr7bEvbORsbNwq7G2vLCptq+Mqa1+p6ugr6qsr6hSoaiFpKeTrqWzrJyNpJp0h4s/gopebXAZXmVPZWNnb2BOXF0nSUgqPD46QzKJvifMAAABhklEQVQoz1XO5XbjMBQE4CvJspIYYid2GBsoM2yZGXe3zMzMjE9ey+1J0/mn79w5GsBMl2hR5Wo4lQqbDcVUlhgGvaS6pvF6NBuqC0W6R4f70isSBto5MTEelSfbza5C6k8fP4xUM3AOPo2l76ekePbs9T+Nh64OahhIjWPL5+/zUmnT0WMJLdO0fhkD82jB9n/+4uG359noolbXU0kZYKcW8HaEsncfLzcDKbcjnLSQOF2CFWN/e2MwWAGCt4liGxFCaqZhvccBSPQWcPT4BASKGNwMB4Qc+n1uBNZLsAoKEv+0yhbSVlWArygcCyiBWHlGFUGxkRfUSHkMtk6HEiJADhN7Fy1Q3xZR8zHQ2zYHRDbdKA/dPg/hk75R4YgEl5PY4/MuOWIbf9f9vO5y5KPXlAlg2bTG5yIYSQkDo0kj8HNZOzCjY8B6NFPL/0YcK9a6KLOQ6Z1DwYTDjtoxssQ4kuaT3fH+Xs0wXJHuvp3LacIsrL9t+VsUX6iqKistZM2HMYI/AeGQNS3AgDPuAAAAAElFTkSuQmCC");
+    }
+    
+    [icon=python]:before {
+        content: &#39;
+        🐍&#39;
+        ;
+    }
+    /* Icon Size */
+    
+    .icon-20-20 {
+        width: 20px;
+        min-width: 20px;
+        height: 20px;
+    }
+    
+    .icon-30-30 {
+        width: 30px;
+        min-width: 30px;
+        height: 30px;
+    }
+    
+    .taoditmemay {
+        visibility: hidden;
+        width: 0;
+    }
+    /* comment */
+    
+    .comments {
+        margin: 100px auto 20px auto;
+    }
+    
+    .is_author {
+        position: relative;
+    }
+    
+    .is_author:after {
+        font-family: &#39;
+        Font Awesome\ 5 Free&#39;
+        ;
+        content: "\f058";
+        font-weight: 900;
+        font-size: 60%;
+        position: absolute;
+        margin-bottom: 8px;
+        margin-left: 8px;
+        color: blue;
+    }
+    
+    .comment_title {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 10px;
+        font-size: 125%;
+    }
+    
+    .commment_replies {
+        margin-left: 30px;
+    }
+    
+    .commment_replies .commment_replies .comment_item {
+        box-shadow: none !important;
+    }
+    
+    .commment_replies .commment_replies .comment_reply {
+        display: none;
+    }
+    
+    .comment_container {
+        margin-top: 40px;
+    }
+    
+    .comment_toolkit {
+        display: grid;
+        grid-template-columns: auto auto 160px;
+        grid-gap: 2rem;
+        color: #c2c2c2;
+    }
+    
+    .comment_container_reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .comment_item {
+        display: grid;
+        grid-template-columns: 80px minmax(100px, 1fr) 160px;
+        grid-gap: 2rem;
+        background: #17141d;
+        color: #c2c2c2;
+        box-shadow: 0 4px 80px #070509;
+        padding: 2rem;
+        border-radius: 16px;
+        margin-bottom: 40px;
+    }
+    
+    @media (max-width: 800px) {
+        .comment_item {
+            display: block;
+        }
+        .comment_reply {
+            margin-top: 20px;
+        }
+    }
+    
+    .comment_author_avatar {
+        position: relative;
+    }
+    
+    .comment_author_avatar img {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px!important;
+        display: block;
+        overflow: hidden;
+        margin: 16px 10px;
+    }
+    
+    .comment_author_name {
+        font-family: Ringside Regular A, Ringside Regular B, Rubik, Lato, Lucida Grande, Lucida Sans Unicode, Tahoma, Sans-Serif;
+        font-style: normal;
+        color: #fff;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    
+    .comment_time {
+        color: #e52e71;
+    }
+    
+    .comment_time time {
+        color: #7a7a8c;
+    }
+    
+    .comment_reply {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: 40px;
+    }
+    
+    .comment_reply &gt;
+    div {
+        width: 70%;
+        max-width: 100px;
+    }
+    
+    .comment_reply a {
+        height: 100%;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        background-image: linear-gradient(to top left, #ff8a00, #e52e71)!important;
+        color: #fff!important;
+        display: block;
+        font-family: inherit;
+        font-weight: 700;
+        border: 0;
+        border-radius: 8px!important;
+        white-space: nowrap;
+        line-height: 1.4;
+        text-align: center;
+        transition: .07s;
+        position: relative;
+        text-decoration: none!important;
+    }
+</style>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css' rel='stylesheet' type='text/css' /> &lt;/head&gt;&lt;!--
+<head/>--&gt;
+<!-- Bắt đầu phần hiển thị trên web -->
+
+<body>
+    <b:section class='header' id='header' showaddelement='yes'>
+        <b:widget id='Header1' locked='false' title='Code Vô Đối (Tiêu đề)' type='Header' version='2' visible='true'>
+            <b:includable id='main'>
+                <div class='header_container'>
+                    <div class='header_section'>
+                        <div>
+                            <label for='menu_links'><i aria-hidden='true' class='fas fa-bars' />
+                            </label>
+                            <input class='checkbox_drop' id='menu_links' type='checkbox' />
+                            <div class='drop_menu drop_left'>
+                                <div class='drop_menu_container menu_links'>
+                                    <a href='/'><span icon='home' />Home</a>
+                                    <a href='/search/label/linux'><span icon='linux' />Linux</a>
+                                    <a href='/search/label/Termux'><span class='icon-20-20' icon='termux' />Termux</a>
+                                    <a href='/search/label/Blogspot'><span class='icon-20-20' icon='blogger' />Blogger</a>
+                                    <a href='/search/label/JavaScript'><span class='icon-20-20' icon='javascript' />Javascript</a>
+                                    <a href='/search/label/Golang'><span class='icon-20-20' icon='golang' />Golang</a>
+                                    <a href='/search/label/Python'><span icon='python' />Python</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label for='menu_labels'><i aria-hidden='true' class='fas fa-cogs' />
+                            </label>
+                            <input class='checkbox_drop' id='menu_labels' type='checkbox' />
+                            <div class='drop_menu drop_left'>
+                                <div class='drop_menu_container'>
+                                    <!-- here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='header_section'>
+                    </div>
+                    <div class='header_section'>
+                        <label><i aria-hidden='true' class='fab fa-facebook-f' />
+                        </label>
+                        <div>
+                            <label for='menu_share'><i aria-hidden='true' class='fas fa-share' />
+                            </label>
+                            <input class='checkbox_drop' id='menu_share' type='checkbox' />
+                            <div class='drop_menu drop_right menu_share'>
+                                <div class='drop_menu_container'>
+                                    <a aria-label='Chia sẻ lên facebook' expr:href=' "https://www.facebook.com/dialog/share?app_id=1148726895462441&amp;href=" + data:blog.url.canonical' target='_blank'>Facebook</a>
+                                    <a aria-label='Chia sẻ lên Twitter' expr:href=' "https://twitter.com/intent/tweet?url=" + data:blog.url.canonical' target='_blank'>Twitter</a>
+                                    <a aria-label='Chia sẻ lên Pinterest' expr:href=' "https://www.pinterest.com/pin/create/button/?url=" + data:blog.url.canonical' target='_blank'>Pinterest</a>
+                                    <a aria-label='Chia sẻ lên Linkedin' expr:href=' "https://www.linkedin.com/sharing/share-offsite/?url=" + data:blog.url.canonical' target='_blank'>Linkedin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label for='menu_search'><i aria-hidden='true' class='fas fa-search' />
+                            </label>
+                            <input class='checkbox_drop' id='menu_search' type='checkbox' />
+                            <div class='drop_menu drop_right'>
+                                <div class='drop_menu_container'>
+                                    <form action='/search'>
+                                        <input id='search' name='q' placeholder='Search articles...' type='text' />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </b:includable>
+        </b:widget>
+    </b:section>
+    <b:section class='main' id='main' showaddelement='yes'>
+        <b:widget id='Blog1' locked='true' title='Bài đăng trên Blog' type='Blog' version='2' visible='true'>
+            <b:includable id='main'>
+                <b:include name='postMetadataJSON' />
+                <b:include name='aboutMeta'/>
+                <article class='article'>
+                    <div class='article_container'>
+                        <b:loop index='i' values='data:posts' var='post'>
+                            <b:include data='post' name='postCommentsAndAd' />
+                            <b:include cond='data:view.isPost' data='post' name='postBody' />
+                        </b:loop>
+                        <b:include name='postPagination' />
+                    </div>
+                </article>
+                <b:include cond='data:view.isSingleItem' name='commentPicker' />
+                <b:if cond='data:view.isPost'>
+                    <div class='tagging_list'>
+                    </div>
+                </b:if>
+            </b:includable>
+            <b:includable id='aboutMeta'>
+                <div class='introduce'>
+                    <b:if cond='data:view.isHomepage'>
+                        <h1 class='title_1'><data:blog.title/></h1>
+                    </b:if>
+                    <b:if cond='data:view.isSingleItem'>
+                        <h1 class='title_1'><data:blog.pageName/></h1>
+                    </b:if>
+                    <b:if cond='data:view.isLabelSearch'>
+                        <h1 class='title'>#<data:blog.pageName/></h1>
+                    </b:if>
+                    <b:if cond='data:view.isSearch and !data:view.isLabelSearch'>
+                        <h1 class='title'>#<data:blog.searchQuery/></h1>
+                    </b:if>
+                    <b:if cond='data:view.isError'>
+                        <h1 class='title'>#Trang_này_không_tồn_tại</h1>
+                    </b:if>
+                </div>
+            </b:includable>
+            <b:includable id='addComments'>
+                <a href='#comment_form'>
+                    <b:message name='messages.postAComment' />
+                </a>
+            </b:includable>
+            <b:includable id='commentAuthorAvatar' var='comment'><img expr:src='resizeImage(data:comment.authorAvatarSrc, 80, "1:1")' />
+            </b:includable>
+            <b:includable id='commentDeleteIcon' var='comment' />
+            <b:includable id='commentForm' var='post' />
+            <b:includable id='commentFormIframeSrc' var='post' />
+            <b:includable id='commentItem' var='comment'>
+                <div class='comment_item' expr:id='"c" + data:comment.id'>
+                    <div class='comment_author_avatar'>
+                        <b:if cond='data:blog.enabledCommentProfileImages'>
+                            <b:include data='comment' name='commentAuthorAvatar' />
+                            <b:else/>
+                            <img src='https://taoanhonline.com/wp-content/uploads/2020/02/anh-doremon-1.png?v=1582383623' />
+                        </b:if>
+                    </div>
+                    <div class='comment_meta'>
+                        <div class='comment_author_name'>
+                            <b:if cond='data:comment.authorUserType != "anonymous"'><span expr:class='"is_" + ((data:post.author.name == data:comment.author) ? "author" : "users")'><data:comment.author/></span><b:else/>anonymous</b:if>
+                        </div>
+                        <div class='comment_time'>#
+                            <time>
+                                <data:comment.timestamp/>
+                            </time>
+                        </div>
+                        <div expr:class='"comment-body" + (data:comment.isDeleted ? " deleted" : "")'>
+                            <data:comment.body/>
+                        </div>
+                    </div>
+                    <div class='comment_reply' expr:data-reply='"//www.blogger.com/comment-iframe.g?blogID=" + data:blog.blogId + "&amp;" + (data:view.isPost ? "postID" : "pageID") + "=" + data:post.id + "&amp;parentID=" + data:comment.id + "&amp;skin=soho"'>
+                        <div><a>reply</a>
+                        </div>
+                    </div>
+                </div>
+            </b:includable>
+            <b:includable id='commentList' var='post'>
+                <div class='comment_container'>
+                    <b:loop values='data:posts' var='post'>
+                        <b:loop values='data:post.comments' var='comment'>
+                            <b:if cond='!data:comment.inReplyTo'>
+                                <div class='comments_section'>
+                                    <b:include data='comment' name='commentItem' />
+                                    <div class='commment_replies'>
+                                        <b:loop values='data:post.comments' var='comment2'>
+                                            <b:if cond='data:comment2.inReplyTo == data:comment.id'>
+                                                <b:include data='comment2' name='commentItem' />
+                                                <div class='commment_replies'>
+                                                    <b:loop values='data:post.comments' var='comment3'>
+                                                        <b:if cond='data:comment3.inReplyTo == data:comment2.id'>
+                                                            <b:include data='comment3' name='commentItem' />
+                                                        </b:if>
+                                                    </b:loop>
+                                                </div>
+                                            </b:if>
+                                        </b:loop>
+                                    </div>
+                                </div>
+                            </b:if>
+
+                        </b:loop>
+                    </b:loop>
+                </div>
+            </b:includable>
+            <b:includable id='commentPicker' var='post'>
+                <b:include data='post' name='comments' />
+            </b:includable>
+            <b:includable id='comments' var='post'>
+                <div class='comments' id='comments'>
+                    <b:include name='commentsTitle' />
+
+                    <b:include name='commentList' />
+
+
+                    <b:if cond='data:post.commentPagingRequired'>
+                        <div class='paging-control-container'>
+                            <b:if cond='data:post.hasOlderLinks'>
+                                <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+                                    <data:messages.oldest/>
+                                </a>
+                                <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+                                    <data:messages.older/>
+                                </a>
+                            </b:if>
+
+                            <b:if cond='data:post.hasNewerLinks'>
+                                <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+                                    <data:messages.newer/>
+                                </a>
+                                <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+                                    <data:messages.newest/>
+                                </a>
+                            </b:if>
+                        </div>
+                    </b:if>
+                </div>
+            </b:includable>
+            <b:includable id='commentsTitle'>
+                <div class='comment_title'>
+                    <data:messages.comments/>
+                </div>
+                <b:include name='threadedCommentForm' />
+                <div class='comment_toolkit'>
+                    <div/>
+                    <div/>
+                    <style type='text/css'>
+                        .comment_reverse {
+                            height: 100%;
+                            padding: 5px;
+                            text-align: center;
+                            background-image: linear-gradient(to top left, #ff8a00, #e52e71)!important;
+                            color: #fff!important;
+                            display: block;
+                            font-family: inherit;
+                            font-weight: 700;
+                            border: 0;
+                            border-radius: 25px;
+                            white-space: nowrap;
+                            line-height: 1.4;
+                            text-align: center;
+                            transition: .07s;
+                            position: relative;
+                            text-decoration: none!important;
+                            box-shadow: 0 25px 80px #070509;
+                            cursor: pointer;
+                        }
+                        
+                        .older_comments {
+                            display: none;
+                        }
+                        
+                        .comments_reversing .older_comments {
+                            display: block;
+                        }
+                        
+                        .comments_reversing .newest_comments {
+                            display: none;
+                        }
+                    </style>
+                    <div class='comment_reverse'>
+                        <span class='newest_comments'>Mới nhất</span>
+                        <span class='older_comments'>Cũ nhất</span>
+                    </div>
+                </div>
+            </b:includable>
+            <b:includable id='feedLinks'>
+                <b:if cond='!data:view.isPost'>
+                    <!-- Blog feed links -->
+                    <b:if cond='data:feedLinks'>
+                        <div class='blog-feeds'>
+                            <b:include data='feedLinks' name='feedLinksBody' />
+                        </div>
+                    </b:if>
+                    <b:else/>
+                    <!--Post feed links -->
+                    <div class='post-feeds'>
+                        <b:loop values='data:posts' var='post'>
+                            <b:if cond='data:post.allowComments and data:post.feedLinks'>
+                                <b:include data='post.feedLinks' name='feedLinksBody' />
+                            </b:if>
+                        </b:loop>
+                    </div>
+                </b:if>
+            </b:includable>
+            <b:includable id='feedLinksBody' var='links'>
+                <div class='feed-links'>
+                    <data:messages.subscribeTo/>
+                    <b:loop values='data:links' var='f'>
+                        <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'>
+                            <data:f.name/> (
+                            <data:f.feedType/>)</a>
+                    </b:loop>
+                </div>
+            </b:includable>
+            <b:includable id='homePageLink'>
+                <div class='post_pagination_section'>
+                    <a aria-label='Trang chủ' expr:href='data:blog.homepageUrl' title='Trang chủ'>
+                        <i aria-hidden='true' class='fas fa-home' />
+                    </a>
+                </div>
+            </b:includable>
+            <b:includable id='iframeComments' var='post'>
+                <!-- G+ comments, no longer available. The includable is retained for backwards-compatibility. -->
+            </b:includable>
+            <b:includable id='inlineAd' var='post'>
+                <b:if cond='!data:view.isPreview'>
+                    <b:if cond='data:this.adCode or data:this.adClientId or data:blog.adsenseClientId'>
+                        <!-- Ad -->
+                        <div class='inline-ad'>
+                            <b:if cond='data:this.adCode != ""'>
+                                <data:this.adCode/>
+                                <b:else/>
+                                <b:include cond='data:this.adClientId or data:blog.adsenseClientId' name='defaultAdUnit' />
+                            </b:if>
+                        </div>
+                    </b:if>
+                    <b:else/>
+                    <div class='inline-ad'>
+                        <div class='inline-ad-placeholder'>
+                            <span><b:message name='messages.adsGoHere'/></span>
+                        </div>
+                    </div>
+                </b:if>
+            </b:includable>
+            <b:includable id='nextPageLink'>
+                <div class='post_pagination_section'>
+                    <a aria-label='Bài đăng cũ hơn' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + "_blog-pager-older-link"' expr:title='data:messages.olderPosts'>
+                        <i aria-hidden='true' class='fas fa-arrow-right' />
+                    </a>
+                </div>
+            </b:includable>
+            <b:includable id='post'>
+                <div class='article_item'>
+                    <div class='article_item_container'>
+                        <a expr:href='data:post.url' expr:title='data:post.title'>
+                            <h2><data:post.title/></h2>
+                            <div class='article_item_intro'>
+                                <p><b:include data='post' name='postBodySnippet' />
+                                </p>
+                            </div>
+                        </a>
+                        <div class='article_item_metadata'>Posted by <span class='article_item_author_name'><data:post.author.name/></span> at
+                            <time>
+                                <data:post.date/>
+                            </time>
+                            <span class='article_item_tagging'><b:include data='post' name='postLabels'/></span>
+                        </div>
+                        <b:if cond='data:view.isPost'>
+                            <script>
+                                var samePostArray = [ <b:loop values = 'data:post.labels' var = 'label'> "<data:label.name/>" <b:if cond = 'data:label.name != data:post.labels.last.name' > , </b:if></b:loop>
+                                ]
+                            </script>
+                        </b:if>
+                    </div>
+                </div>
+            </b:includable>
+            <b:includable id='postBody' var='post'>
+                <main class='post_outer'>
+                    <div data-toc='' />
+                    <article data-content=''>
+                        <data:post.body/>
+                    </article>
+                    <b:include name='postCommentsLink' />
+                </main>
+            </b:includable>
+            <b:includable id='postBodySnippet' var='post'>
+                <b:if cond='data:view.isPost'>
+                    <b:eval expr='(data:post.snippets.long snippet { length: 250, links: false, linebreaks: false, ellipsis: true })' /><b:else/>
+                    <b:eval cond='!data:view.isPost' expr='(data:post.snippets.long snippet { length: 200, links: false, linebreaks: false, ellipsis: true })' /></b:if>
+            </b:includable>
+            <b:includable id='postCommentsAndAd' var='post'>
+                <b:include cond='!data:view.isSingleItem' name='post' />
+            </b:includable>
+            <b:includable id='postCommentsLink'>
+                <div elements='leave_a_comment'>
+                    <div class='section_box'>
+                        <span class='dash' />
+                        <span class='section_info'><b:include name='addComments'/></span>
+                        <span class='dash' />
+                    </div>
+                    <p>🤪 Cảm ơn đã đọc bài viết của tớ ! Có thể rằng tâm hồn của chúng ta không đồng đều trong từng nhịp điệu của tri thức nhưng chắc chắn rằng chúng ta đang bồi đắp chung một gốc cây 🎋</p>
+                </div>
+            </b:includable>
+            <b:includable id='postFooter' var='post'>
+
+            </b:includable>
+            <b:includable id='postFooterAuthorProfile' var='post'>
+
+            </b:includable>
+            <b:includable id='postHeader' var='post' />
+            <b:includable id='postJumpLink' var='post' />
+            <b:includable id='postLabels'>
+                <b:loop values='data:post.labels' var='label'>
+                    <a expr:href='data:label.url' expr:title='data:label.name' rel='tag'>#<data:label.name/></a>
+                </b:loop>
+            </b:includable>
+            <b:includable id='postMeta' var='post' />
+            <b:includable id='postMetadataJSON'>
+                <b:if cond='data:view.isHomepage'>
+                    <script type='application/ld+json'>
+                        { "@context": "https://schema.org", "@type": "WebSite", "url": "
+                        <data:blog.canonicalHomepageUrl/>", "potentialAction": { "@type": "SearchAction", "target": "
+                        <data:blog.canonicalHomepageUrl/>search?q={search_term_string}", "query-input": "required name=search_term_string" } }
+                    </script>
+                </b:if>
+                <b:if cond='data:view.isPost'>
+                    <b:loop values='data:posts' var='post'>
+                        <script type='application/ld+json'>
+                            { "@context": "https://schema.org", "@type": "Article", "mainEntityOfPage":{ "@type":"WebPage", "@id":"
+                            <data:post.url.jsonEscaped/>"}, "headline": "
+                            <data:post.title.jsonEscaped/>", "description":
+                            <b:if cond='data:blog.metaDescription'>"<b:eval expr='data:blog.metaDescription.jsonEscaped' />"<b:else/>"Code Vô Đối là nơi chứa những câu chuyện chém gió tạp nhảm của một thằng quản trị viên blog cỏn con mang trong mình những nỗi niềm vô hạn và những đam mê lạ lùng"</b:if>, "image": { "@type": "ImageObject",
+                            <b:if cond='data:view.featuredImage'>"url": "<b:eval expr='resizeImage(data:view.featuredImage, 1200, "1200:630")' />",
+                                <b:elseif cond='data:blog.postImageUrl' />"url": "<b:eval expr='resizeImage(data:blog.postImageUrl, 1200, "1200:630")' />",
+                                <b:else/>"url": "https://1.bp.blogspot.com/-vf9PIVonPEQ/XjJnudNfIdI/AAAAAAAAD50/H6MhatPKmog25i8bQH5Okew52HXZTmxeQCLcBGAsYHQ/s320/anh-avatar-buc-minh-cuc-hai-huoc.jpg",
+                            </b:if>"height": 720, "width": 480 },
+                            <b:if cond='data:post.thumbnailUrl'>"thumbnailUrl":"
+                                <data:post.thumbnailUrl/>",
+                            </b:if>"author": { "@type": "Person", "name": "
+                            <data:post.author.name/>" }, "publisher": { "@type": "Organization", "name": "codevodoi.blogspot.com", "logo": { "@type": "ImageObject", "url": "https://codevodoi.blogspot.com/favicon.ico" } }, "keywords": ["termux là gì","Code Vô Đối","hacking toturial","python là gì","tâm lặng như nước","tâm sự","chuyện phiếm cuối tuần","blogger data","thủ thuật blogspot","javascript là gì","seo là gì", "codevodoi","termux wiki"], "datePublished": "
+                            <data:post.date.iso8601.jsonEscaped/>", "dateModified": "
+                            <data:post.lastUpdated.iso8601.jsonEscaped/>" }
+                        </script>
+                        <script type='application/ld+json'>
+                            { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "item": { "name": "
+                            <data:messages.home/>", "@id": "
+                            <data:blog.homepageUrl.jsonEscaped/>" } }
+                            <b:loop index='i' values='data:post.labels' var='label'>,{ "@type": "ListItem", "position": <b:eval expr='data:i + 2' />, "item": { "name": "
+                                <data:label.name.jsonEscaped/>", "@id": "
+                                <data:label.url.jsonEscaped/>" } }
+                            </b:loop>,{ "@type": "ListItem", "position": <b:eval expr='data:post.labels.length + 2' />, "item": { "name": "
+                            <data:post.title.jsonEscaped/>", "@id": "
+                            <data:post.url.jsonEscaped/>" } }] }
+                        </script>
+                    </b:loop>
+                </b:if>
+
+            </b:includable>
+            <b:includable id='postPagination'>
+                <div class='post_pagination'>
+                    <b:include cond='data:newerPageUrl' name='previousPageLink' />
+                    <b:include cond='data:view.url != data:blog.homepageUrl' name='homePageLink' />
+                    <b:include cond='data:olderPageUrl' name='nextPageLink' />
+                </div>
+            </b:includable>
+            <b:includable id='postTitle' var='post' />
+            <b:includable id='previousPageLink'>
+                <div class='post_pagination_section'>
+                    <a aria-label='Bài đăng mới hơn' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + "_blog-pager-newer-link"' expr:title='data:messages.newerPosts'>
+                        <i aria-hidden='true' class='fas fa-arrow-left' />
+                    </a>
+                </div>
+            </b:includable>
+            <b:includable id='threadedCommentForm' var='post'>
+                <b:loop values='data:posts' var='post'>
+                    <iframe allowtransparency='true' expr:data-comment='"//www.blogger.com/comment-iframe.g?blogID=" + data:blog.blogId + "&amp;" + (data:view.isPost ? "postID" : "pageID") + "=" + data:post.id + "&amp;skin=soho"' expr:src='"//www.blogger.com/comment-iframe.g?blogID=" + data:blog.blogId + "&amp;" + (data:view.isPost ? "postID" : "pageID") + "=" + data:post.id + "&amp;skin=soho"' frameborder='0' height='300px' id='comment_form' loading='lazy' title='khung bình luận' width='100%' />
+                </b:loop>
+            </b:includable>
+            <b:includable id='threadedComments' var='post'>
+                <section class='comments threaded' expr:data-embed='data:post.embedCommentForm' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+                    <a name='comments' />
+
+                    <b:include name='commentsTitle' />
+
+                    <div class='comments-content'>
+                        <b:if cond='data:post.embedCommentForm'>
+                            <b:include data='post' name='threadedCommentJs' />
+                        </b:if>
+                        <div id='comment-holder'>
+                            <data:post.commentHtml/>
+                        </div>
+                    </div>
+
+                    <p class='comment-footer'>
+                        <b:if cond='data:post.allowNewComments'>
+                            <b:include data='post' name='threadedCommentForm' />
+                            <b:else/>
+                            <data:post.noNewCommentsText/>
+                        </b:if>
+                    </p>
+
+                    <b:if cond='data:showCmtPopup'>
+                        <div id='comment-popup'>
+                            <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+                            </iframe>
+                        </div>
+                    </b:if>
+                </section>
+            </b:includable>
+        </b:widget>
+        <b:widget id='Label1' locked='true' title='Label' type='Label' version='2' visible='true'>
+            <b:widget-settings>
+                <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+                <b:widget-setting name='display'>LIST</b:widget-setting>
+                <b:widget-setting name='selectedLabelsList' />
+                <b:widget-setting name='showType'>ALL</b:widget-setting>
+                <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main' var='top'>
+                <b:include cond='data:view.isSingleItem' name='list' />
+            </b:includable>
+            <b:includable id='cloud'>
+                <b:loop values='data:labels' var='label'>
+                    <span class='label-size'>
+      <b:class expr:name='"label-size-" + data:label.cssSize'/>
+      <a class='label-name' expr:href='data:label.url'>
+        <data:label.name/>
+        <b:if cond='data:this.showFreqNumbers'>
+          <span class='label-count'><data:label.count/></span>
+                    </b:if>
+                    </a>
+                    </span>
+                </b:loop>
+            </b:includable>
+            <b:includable id='content'>
+                <div class='widget-content'>
+                    <b:class expr:name='data:this.display + "-label-widget-content"' />
+                    <b:include cond='data:this.display == "list"' name='list' />
+                    <b:include cond='data:this.display == "cloud"' name='cloud' />
+                </div>
+            </b:includable>
+            <b:includable id='list'>
+                <div id='tagging_list'>
+                    <ul>
+                        <b:loop values='data:labels' var='label'>
+                            <li><a expr:href='"/search/label/"+data:label.name' rel='tag'>#<data:label.name/> (<data:label.count/>)</a>
+                            </li>
+                        </b:loop>
+                    </ul>
+                </div>
+            </b:includable>
+        </b:widget>
+        <b:widget id='PopularPosts1' locked='false' mobile='yes' title='Popular Posts' type='PopularPosts' version='2' visible='true'>
+            <b:includable id='main' var='top'>
+                <div class='popular_posts'>
+                    <div class='popular_posts_container'>
+                        <div class='section_box'>
+                            <span class='dash' />
+                            <span class='section_info'>POPULAR POSTS</span>
+                            <span class='dash' />
+                        </div>
+                        <div>
+                            <ul>
+                                <b:loop values='data:posts' var='post'>
+                                    <li>
+                                        <a expr:href='data:post.url' expr:title='data:post.title'>
+                                            <data:post.title/>
+                                        </a>
+                                    </li>
+                                </b:loop>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </b:includable>
+        </b:widget>
+    </b:section>
+</body>
+<script>
+    //<![CDATA[
+    var i;
+    try {
+        Array.prototype.forEach.call(document.querySelectorAll('.article_item_tagging'), (el) => {
+            if (el.querySelectorAll('a').length > 3) {
+                for (i = 0; i < 4; i++) {
+                    el.querySelectorAll('a')[i].parentNode.removeChild(el.querySelectorAll('a')[i]);
+                }
+            };
+        });
+    } catch (e) {
+
+    }
+
+    // Chuy
+    (function() {
+        if (document.getElementById("tagging_list")) {
+            var temp = document.getElementById("tagging_list");
+            document.querySelector('.tagging_list').appendChild(temp);
+        }
+    })();
+    //]]>
+</script>
+<b:if cond='data:view.isPost'>
+    <script type='text/javascript'>
+        //<![CDATA[
+        (function() {
+            var a = document.querySelectorAll('.post_outer b');
+            Array.prototype.forEach.call(a, (el) => {
+                var b = el.querySelectorAll('*');
+                if (b.length == 0) {
+                    el.classList.add('b')
+                }
+            });
+        })();
+        /* reply */
+        const replyForm = (el) => {
+            (document.querySelector('.reply_form')) ? (document.querySelector('.reply_form').parentNode.removeChild(document.querySelector('.reply_form'))) : '';
+            el.setAttribute('replying', '');
+            var b = document.createElement('iframe');
+            el.setAttribute('replying', '');
+            b.src = el.getAttribute('data-reply');
+            b.width = '100%';
+            b.classList.add('reply_form');
+            b.setAttribute('allowtransparency', 'true');
+            b.setAttribute('height', '300px');
+            b.setAttribute('frameborder', '0');
+            var c = el.parentNode;
+            c.parentNode.insertBefore(b, c.nextSibling);
+        };
+        (function() {
+            document.querySelector('.comment_reverse').addEventListener('click', function() {
+                document.querySelector('.comment_reverse').classList.toggle('comments_reversing')
+                document.querySelector('.comment_container').classList.toggle('comment_container_reverse');
+            })
+        })();
+        (function() {
+            var a = document.querySelectorAll('.comment_reply');
+            Array.prototype.forEach.call(a, (el) => {
+                el.addEventListener("click", function() {
+                    var $this = this;
+                    var treu = $this.getAttribute('replying') == null;
+                    (treu == false) ? (function() {})() : (function() {
+                        Array.prototype.forEach.call(document.querySelectorAll('[replying]'), (el) => {
+                            el.removeAttribute('replying');
+                        });
+                        replyForm($this);
+                    })();
+                });
+            });
+        })();
+        /* */
+        var addElementsToSamePost = () => {
+                var parent = document.querySelector('.same_posts');
+                var newElement = document.createElement('div');
+                parent.insertBefore(newElement, parent.firstChild);
+            }
+            // Bài viết cùng chủ đề
+            (function() {
+                var isExists = [];
+                if (samePostArray.length > 0) {
+                    var elements = document.querySelectorAll('.post_outer > *');
+
+                    if (elements.length > 5) {
+                        var centerElement = Math.floor(Math.random() * elements.length);
+                        var maxResults = Math.ceil(5 / samePostArray.length);
+                        var div = document.createElement('div');
+                        div.classList.add('same_posts');
+                        elements[centerElement].insertAdjacentElement('afterend', div);
+                        var div = document.createElement('ul');
+                        Array.prototype.forEach.call(samePostArray, (label) => {
+                            var request = new XMLHttpRequest();
+                            var url = `/feeds/posts/summary/-/${label}?alt=json&max-results=${maxResults}`;
+                            request.open('GET', url, true);
+                            request.onload = function() {
+                                if (request.status >= 200 && request.status < 400) {
+                                    var data = JSON.parse(request.response);
+
+                                    if (data.feed.entry.length > 0) {
+                                        for (i = 0; i < data.feed.entry.length; i++) {
+                                            var li = document.createElement('li')
+                                            li.innerHTML = `<a href='${data.feed.entry[i].link[4].href}'>${data.feed.entry[i].title.$t}</a>`;
+                                            if (!isExists.includes(data.feed.entry[i].id.$t)) {
+                                                div.appendChild(li);
+                                            }
+                                            isExists.push(data.feed.entry[i].id.$t)
+
+                                        }
+
+                                    }
+                                }
+                            };
+                            request.send();
+                        });
+                        document.querySelector('.same_posts').appendChild(div);
+                        addElementsToSamePost();
+                    }
+                }
+            })();
+        // Chuyên dùng để load code làm đẹp 
+        var expand = (obj) => {
+            var keys = Object.keys(obj);
+            for (let i = 0; i < keys.length; ++i) {
+                let key = keys[i],
+                    subkeys = key.split(/,\s?/),
+                    target = obj[key];
+                delete obj[key];
+                subkeys.forEach(key => obj[key] = target)
+            }
+            return obj;
+        }
+        var languages_array = expand({
+            "html, xml, svg, mathml": "markup",
+            "shell": "bash",
+            "js,jquery": "javascript",
+            "hs": "haskell",
+            "py": "python",
+            "adoc": "asciidoc",
+            "rbnf": "bnf",
+            "rb": "ruby",
+            "conc": "concurnas",
+            "tex, context": "latex",
+            "cs, dotnet": "csharp",
+            "coffee": "coffeescript",
+            "emacs, elisp, emacs-lisp": "lisp",
+            "sln": "solution-file",
+            "rq": "sparql",
+            "md": "markdown",
+            "jinja2": "django",
+            "dns-zone": "dns-zone-file",
+            "dockerfile": "docker",
+            "gamemakerlanguage": "gml",
+            "px": "pcaxis",
+            "objectpascal": "pascal",
+            "n4jsd": "n4js",
+            "moon": "moonscript",
+            "robot": "robotframework",
+            "sln": "solution-file",
+            "rq": "sparql",
+            "ts": "typescript",
+            "t4": "t4-cs",
+            "vb": "visual-basic",
+            "yml": "yaml"
+        });
+        var codeArray = ['https://cdn.jsdelivr.net/gh/truong-huong/nullshell-js/main.js'];
+        var formatPreCode = (a) => {
+            (document.querySelectorAll('pre > code').length > 0) ? (function() {
+                (a > 0) ? "" : (a = 0);
+                var b = document.querySelectorAll('pre > code')[a];
+                var c = b.innerHTML;
+                var d = c.replace(/(\<br(.*?)\>)/gim, '&#10;');
+                b.innerHTML = d;
+                a = a + 1;
+                (a < document.querySelectorAll('pre > code').length) ? (formatPreCode(a)) : "";
+            })() : '';
+            /* Array.prototype.forEach.call(document.querySelectorAll('pre > code'), (el) => {
+               var code = el.innerHTML;
+               var code = code.replace(/(\<br(.*?)\>)/gim,'&#10;');
+               el.innerHTML = code;
+            });*/
+        };
+        var addLanguageScript = (pos) => {
+            (pos) ? '' : (pos = 0);
+            var selectorElements = document.querySelectorAll('code[class*=language-]');
+            var selectorElementsLength = selectorElements.length;
+            var selectorElement = selectorElements[pos];
+            var selectorElementLanguage;
+            (selectorElementsLength && pos < selectorElementsLength) ? (function() {
+                var language = selectorElement.getAttribute('class').replace('language-', '').trim();
+                (languages_array[language] != undefined) ? (language = languages_array[language]) : '';
+                selectorElementLanguage = `https://cdn.jsdelivr.net/gh/truong-huong/nullshell-js/prism-${language}.min.js`;
+                (!codeArray.includes(selectorElementLanguage)) ? codeArray.push(selectorElementLanguage): '';
+                pos = pos + 1;
+                addLanguageScript(pos);
+            })() : (function() {
+                (codeArray.length > 0) ? (function() {
+                    var hongtham = document.createElement('script');
+                    document.head.appendChild(hongtham);
+                    hongtham.onload = function() {
+                        (codeArray.length > 0) ? (function() {
+                            addLanguageScript((selectorElementsLength + 1))
+                        })() : (function() {
+                            Prism.highlightAll()
+                        })()
+                    }
+                    hongtham.src = codeArray.shift();
+                })() : '';
+            })();
+        }
+
+        formatPreCode();
+        addLanguageScript();
+        /*! tableOfContents.js v1.0.0 | (c) 2020 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/table-of-contents */
+
+        /*
+         * Automatically generate a table of contents from the headings on the page
+         * @param  {String} content A selector for the element that the content is in
+         * @param  {String} target  The selector for the container to render the table of contents into
+         * @param  {Object} options An object of user options [optional]
+         */
+        var tableOfContents = function(content, target, options) {
+
+            //
+            // Variables
+            //
+
+            // Get content
+            var contentWrap = document.querySelector(content);
+            var toc = document.querySelector(target);
+            if (!contentWrap || !toc) return;
+
+            // Settings & Defaults
+            var defaults = {
+                levels: 'h2, h3, h4, h5, h6',
+                heading: 'Table of Contents',
+                headingLevel: 'h2',
+                listType: 'ul'
+            };
+            var settings = {};
+
+            // Placeholder for headings
+            var headings;
+
+
+            //
+            // Methods
+            //
+
+            /**
+             * Merge user options into defaults
+             * @param  {Object} obj The user options
+             */
+            var merge = function(obj) {
+                for (var key in defaults) {
+                    if (Object.prototype.hasOwnProperty.call(defaults, key)) {
+                        settings[key] = Object.prototype.hasOwnProperty.call(obj, key) ? obj[key] : defaults[key];
+                    }
+                }
+            };
+
+            /**
+             * Create an ID for a heading if one does not exist
+             * @param  {Node} heading The heading element
+             */
+            var createID = function(heading) {
+                if (heading.id.length) return;
+                heading.id = 'toc_' + heading.textContent.replace(/[^A-Za-z0-9]/g, '-');
+            };
+
+            /**
+             * Get the HTML to indent a list a specific number of levels
+             * @param  {Integer} count The number of times to indent the list
+             * @return {String}        The HTML
+             */
+            var getIndent = function(count) {
+                var html = '';
+                for (var i = 0; i < count; i++) {
+                    html += '<' + settings.listType + '>';
+                }
+                return html;
+            };
+
+            /**
+             * Get the HTML to close an indented list a specific number of levels
+             * @param  {Integer} count The number of times to "outdent" the list
+             * @return {String}        The HTML
+             */
+            var getOutdent = function(count) {
+                var html = '';
+                for (var i = 0; i < count; i++) {
+                    html += '</' + settings.listType + '></li>';
+                }
+                return html;
+            };
+
+            /**
+             * Get the HTML string to start a new list of headings
+             * @param  {Integer} diff  The number of levels in or out from the current level the list is
+             * @param  {Integer} index The index of the heading in the "headings" NodeList
+             * @return {String}        The HTML
+             */
+            var getStartingHTML = function(diff, index) {
+
+                // If indenting
+                if (diff > 0) {
+                    return getIndent(diff);
+                }
+
+                // If outdenting
+                if (diff < 0) {
+                    return getOutdent(Math.abs(diff));
+                }
+
+                // If it's not the first item and there's no difference
+                if (index && !diff) {
+                    return '</li>';
+                }
+
+                return '';
+
+            };
+
+            /**
+             * Inject the table of contents into the DOM
+             */
+            var injectTOC = function() {
+
+                // Track the current heading level
+                var level = headings[0].tagName.slice(1);
+                var startingLevel = level;
+
+                // Cache the number of headings
+                var len = headings.length - 1;
+
+                // Inject the HTML into the DOM
+                toc.innerHTML =
+                    '<' + settings.headingLevel + '>' + settings.heading + '</' + settings.headingLevel + '>' +
+                    '<' + settings.listType + '>' +
+                    Array.prototype.map.call(headings, function(heading, index) {
+
+                        // Add an ID if one is missing
+                        createID(heading);
+
+                        // Check the heading level vs. the current list
+                        var currentLevel = heading.tagName.slice(1);
+                        var levelDifference = currentLevel - level;
+                        level = currentLevel;
+                        var html = getStartingHTML(levelDifference, index);
+
+                        // Generate the HTML
+                        html +=
+                            '<li>' +
+                            '<a href="#' + heading.id + '">' +
+                            heading.textContent.trim() +
+                            '</a>';
+
+                        // If the last item, close it all out
+                        if (index === len) {
+                            html += getOutdent(Math.abs(startingLevel - currentLevel));
+                        }
+
+                        return html;
+
+                    }).join('') +
+                    '</' + settings.listType + '>';
+            };
+
+            /**
+             * Initialize the script
+             */
+            var init = function() {
+
+                // Merge any user settings into the defaults
+                merge(options || {});
+
+                // Get the headings
+                // If none are found, don't render a list
+                headings = contentWrap.querySelectorAll(settings.levels);
+                if (!headings.length) return;
+
+                // Inject the table of contents
+                injectTOC();
+
+            };
+
+
+            //
+            // Initialize the script
+            //
+
+            init();
+
+        };
+        tableOfContents('[data-content]', '[data-toc]', {
+            heading: 'Mục Lục', // Change the headings
+            listType: 'ol', // Change the list type
+            levels: 'h2, h3, h4, h5, h6'
+        });
+        //]]>
+    </script>
+</b:if>
+<!-- Kết thúc phần hiển thị trên web -->
+
+</html>
