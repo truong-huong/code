@@ -1,0 +1,74 @@
+
+
+
+
+<b:includable id='main'>
+    <b:include name='comments'/>
+</b:includable>
+
+<b:includable id='comments'>
+    <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.allowComments'>
+            <b:if cond='data:post.allowNewComments'>
+                <!-- Bình luận tại đây -->
+                <iframe allowtransparency='true'
+                        expr:data-comment='"//www.blogger.com/comment-iframe.g?blogID=" + data:blog.blogId + "&amp;" + (data:view.isPost ? "postID" : "pageID") + "=" + data:post.id + "&amp;skin=soho"'
+                        expr:src='"//www.blogger.com/comment-iframe.g?blogID=" + data:blog.blogId + "&amp;" + (data:view.isPost ? "postID" : "pageID") + "=" + data:post.id + "&amp;skin=soho"' />
+                </iframe>
+            </b:if>
+            <b:loop values='data:post.comments' var='comment'>
+                <b:if cond='!data:comment.inReplyTo'>
+                    <div class='comment'>
+                        <b:include data='comment' name='commentItem' />
+                        <div class='replies'>
+                            <b:loop values='data:post.comments' var='comment2'>
+                                <b:if cond='data:comment2.inReplyTo == data:comment.id'>
+                                    <b:include data='comment2' name='commentItem' />
+                                    <div class='replies'>
+                                        <b:loop values='data:post.comments' var='comment3'>
+                                            <b:if cond='data:comment3.inReplyTo == data:comment2.id'>
+                                                <b:include data='comment3' name='commentItem' />
+                                                <!-- Độ sâu của phản hội tối đa bằng cách thêm một vòng lặp tại đây
+                                                    Ví dụ :
+                                                    <b:loop values='data:post.comments' var='comment4'>
+                                                        <b:if cond='data:comment4.inReplyTo == data:comment3.id'>
+                                                            <b:include data='comment4' name='commentItem' />
+                                                
+                                                        </b:if>
+                                                    </b:loop>
+                                                -->
+                                            </b:if>
+                                        </b:loop>
+                                    </div>
+                                </b:if>
+                            </b:loop>
+                        </div>
+                    </div>
+                </b:if>
+            </b:loop>
+        </b:if>
+</b:includable>
+
+<b:includable id='commentItem' var='comment'>
+    <div class='comment_item' expr:id='"c" + data:comment.id'>
+        <b:if cond='data:blog.enabledCommentProfileImages'>
+            <!-- Ảnh bình luận -->
+            <img expr:src='data:comment.authorAvatarSrc' />
+        </b:if>
+        <!-- Tên người bình luận -->
+        <b:if cond='data:comment.authorUserType != "anonymous"'>
+                <span expr:class='"is_" + ((data:post.author.name == data:comment.author) ? "author" : "users")'>
+                    <data:comment.author/>
+                </span>
+        <b:else/>anonymous</b:if>
+        <!-- Thời gian bình luận -->
+        <data:comment.timestamp/>
+        <!-- Nội dung bình luận -->
+        <div expr:class='"comment-body" + (data:comment.isDeleted ?: " deleted")'>
+            <data:comment.body/>
+        </div>
+        <!-- Trả lời tại đây -->
+        <iframe src='"//www.blogger.com/comment-iframe.g?blogID=" + data:blog.blogId + "&amp;" + (data:view.isPost ? "postID" : "pageID") + "=" + data:post.id + "&amp;parentID=" + data:comment.id + "&amp;skin=soho"'></iframe>
+        <a expr:href='data:comment.deleteUrl'>Xóa comment</a>
+    </div>
+</b:includable>
