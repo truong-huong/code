@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css' rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>404 Page</title>
+    <style type="text/css">
+        body {
+            font-family: 'open sans', sans-serif;
+            line-height: 1.35;
+        }
+        
+        a {
+            all: unset;
+        }
+        
+        ._notification-404 {
+            display: grid;
+            padding: 0 90px;
+            grid-template-columns: 50% 50%;
+        }
+        
+        ._page-404 {
+            width: 100%;
+            max-width: 1024px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .notification-404 {
+            margin-right: 50px;
+        }
+        
+        .notification-404 > h1 {
+            color: rgb(0, 0, 0);
+            font-weight: 600;
+            font-size: 40;
+            line-height: 1.075;
+            letter-spacing: -0.4px;
+            margin-bottom: 1rem;
+        }
+        
+        .notification-404 > p {
+            color: rgb(138, 148, 166);
+            font-size: 20px;
+        }
+        
+        ._homepage {
+            display: inline-block;
+            margin: 20px 8px 0 0;
+            min-width: 140px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            border-radius: 4px;
+            padding: 12px 12px 10px;
+            transition: all 200ms ease-in-out 0s;
+            background: rgb(0, 112, 232);
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        
+        .image-404 {
+            position: relative;
+            float: right;
+            width: 100%;
+        }
+        
+        .image-404:after {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+        
+        .image-404 img {
+            max-width: 300px;
+            max-height: 300px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .name-404 {
+            display: flex;
+            align-items: center;
+        }
+        
+        .name-404 img {
+            width: 24px;
+            height: 24px;
+            object-fit: cover;
+        }
+        
+        .name-404 span {
+            color: rgb(0, 0, 0);
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 1.35;
+            margin-left: 14px;
+        }
+        
+        .contact-404 {
+            margin: 20px;
+            padding: 32px;
+            box-shadow: rgba(0, 0, 0, 0.03) 0px 2px 12px 0px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgba(83, 98, 124, 0.07);
+            border-image: initial;
+            border-radius: 4px;
+            overflow: hidden;
+            background: rgb(255, 255, 255);
+        }
+        
+        .contact-404 > p {
+            font-weight: normal;
+            color: rgb(138, 148, 166);
+            font-size: 16px;
+            line-height: 1.4;
+            margin-bottom: 1.5rem;
+        }
+        
+        ._contact-404 {
+            display: grid;
+            grid-template-columns: 33.33% 33.33% 33.33%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .contact-link {
+            font-weight: 500;
+            color: rgb(0, 112, 232);
+            line-height: 1.4;
+            font-size: 14px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .contact-link > span:after {
+            font-family: 'Font Awesome\ 5 Free';
+            display: inline-block;
+            content: '\f061';
+            margin-left: 10px;
+            transition: all .3s ease-in-out;
+            font-weight: bold;
+        }
+        
+        .contact-link:hover > span:after {
+            margin-left: 15px;
+            transition: all .3s ease-in-out;
+        }
+
+        /*  */
+        @media (max-width: 950px) {
+            ._notification-404 {
+                grid-template-columns: 100%;
+            }
+            .image-404 img {
+                max-width: 100%;
+                max-height: 100%;
+                width: 100%;
+                height: auto;
+                margin-top: 20px;
+            }
+            ._contact-404 {
+                grid-template-columns: 50% 50%;
+            }
+            @media (max-width: 780px) {
+                ._notification-404 {
+                    padding: 0 50px;
+                }
+            }
+            @media (max-width: 480px) {
+                ._contact-404 {
+                    grid-template-columns: 100%;
+                }
+                ._notification-404 {
+                    padding: 0 20px;
+                }
+            }
+        }
+    </style>
+    <link href='https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Mono:ital@1&display=swap' rel='stylesheet' />
+</head>
+
+<body>
+    <div class="_page-404">
+        <div class="page-404">
+            <div class="_notification-404">
+                <div class="notification-404">
+                    <h1>Oops! The page you were looking for doesn’t exist.</h1>
+                    <p>You may have misstyped the address or the page may have moved.</p>
+                    <a class="_homepage" href='https://codemai.blogspot.com' rel='dofollow'>Go to homepage</a>
+                </div>
+                <div class="image-404">
+                    <img src="https://www.hostinger.vn/assets/lang/vi/images/404-3a53e76ef1.png">
+                </div>
+            </div>
+            <div class="_contact-404">
+                <div class="contact-404">
+                    <div class="name-404">
+                        <img src="https://i.pinimg.com/originals/3f/40/7d/3f407dc965335257705ea112bb3a32ce.png">
+                        <span>Facebook</span>
+                    </div>
+                    <p>Meet and follow us on Facebook for new ideas</p>
+                    <a href='https://codemai.blogspot.com' class="contact-link"><span>Visit us on Facebook<span></a>
+                </div>
+                <div class="contact-404">
+                    <div class="name-404">
+                        <i class="fab fa-youtube"></i>
+                        <span>Youtube</span>
+                    </div>
+                    <p>Watch our new science videos on YouTube</p>
+                    <a href='https://codemai.blogspot.com' class="contact-link"><span>Visit us on Youtube<span></a>
+                </div>
+                <div class="contact-404">
+                    <div class="name-404">
+                        <span>🧧</span>
+                        <span>Github</span>
+                    </div>
+                    <p>Subscribe to our research projects</p>
+                    <a href='https://codemai.blogspot.com' class="contact-link"><span>Visit us on Github<span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
