@@ -26,6 +26,8 @@
 </div>
 <script type="text/javascript">
     var child = 0;
+    var menuClassName = 'menu-class-name';
+    var subMenuClassName = 'sub-menu-class-name';
     var parent_child,menu,close,link ;
     Array.prototype.forEach.call(document.querySelectorAll('.menu li'), (el) => {
         var str = el.innerText ;
@@ -38,9 +40,9 @@
                 break; 
             };
         }
-        link = `<a href='${(el.getAttribute('data-href') ? el.getAttribute('data-href') : '')}'>${el.innerText.replace(/\_/gim,'')}</a>`;
+        link = `<a href='${ (el.getAttribute('data-href') ? el.getAttribute('data-href') : '')}'>${el.innerText.replace(/\_/gim,'')}</a>`;
         if (child == undefined) {
-            menu = `<ul><li>${link}</li>`;
+            menu = `<ul class='${ ( (menuClassName != undefined ) ? menuClassName : '') }'><li>${link}</li>`;
         } else if ( child == parent_child) {
             menu = menu + `<li>${link}</li>`;
         } else if ( child < parent_child ) {
@@ -49,7 +51,7 @@
                 el.innerText = 'Syntax error : excess _';
                 menu = menu + `<ul><li>Syntax error : excess _</li>`;
             } else {
-                menu = menu + `<ul><li>${link}</li>`;
+                menu = menu + `<ul class='${((subMenuClassName != undefined ) ? subMenuClassName : '') }''><li>${link}</li>`;
             }
         } else {
             close = ('</ul>').repeat((child - parent_child));
