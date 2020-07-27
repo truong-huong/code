@@ -1,0 +1,60 @@
+<title>Unlimited multi-level dropdown menu using dashes with Javascript - codemai.blogspot.com</title>
+<div class="menu">
+    <ul>
+        <li data-href='https://codemai.blogspot.com/2020/07/unlimited-multi-level-dropdown-menu-using-dashes.html'>Level 0</li>
+        <li data-href='#'>Level 0</li>
+        <li data-href='#'>_Level 1</li>
+        <li data-href='#'>_Level 1</li>
+        <li data-href='#'>__Level 2</li>
+        <li data-href='#'>__Level 2</li>
+        <li data-href='#'>__Level 2</li>
+        <li data-href='#'>___Level 3</li>
+        <li data-href='#'>Level 0</li>
+        <li data-href='#'>_Level 1</li>
+        <li data-href='#'>__Level 2</li>
+        <li data-href='#'>___Level 3</li>
+        <li data-href='#'>____Level 4</li>
+        <li data-href='#'>_____Level 5</li>
+        <li data-href='#'>___Level 3</li>
+        <li data-href='#'>__Level 2</li>
+        <li data-href='#'>_Level 1</li>
+        <li data-href='#'>__Level 2</li>
+        <li data-href='#'>__Level 2</li>
+        <li data-href='#'>Level 0</li>
+        <!-- codemai.blogspot.com -->
+    </ul>
+</div>
+<script type="text/javascript">
+    var child = 0;
+    var parent_child,menu,close,link ;
+    Array.prototype.forEach.call(document.querySelectorAll('.menu li'), (el) => {
+        var str = el.innerText ;
+        child = parent_child;
+        parent_child = 0 ;
+        for (var i = 0; i < str.length; i++) {
+            if ( str.charAt(i) == '_' ){ 
+                parent_child = parent_child +1;
+            } else { 
+                break; 
+            };
+        }
+        link = `<a href='${(el.getAttribute('data-href') ? el.getAttribute('data-href') : '')}'>${el.innerText.replace(/\_/gim,'')}</a>`;
+        if (child == undefined) {
+            menu = `<ul><li>${link}</li>`;
+        } else if ( child == parent_child) {
+            menu = menu + `<li>${link}</li>`;
+        } else if ( child < parent_child ) {
+            if (parent_child - child > 1) {
+                console.log('Syntax error : excess _');
+                el.innerText = 'Syntax error : excess _';
+                menu = menu + `<ul><li>Syntax error : excess _</li>`;
+            } else {
+                menu = menu + `<ul><li>${link}</li>`;
+            }
+        } else {
+            close = ('</ul>').repeat((child - parent_child));
+            menu = menu + close + `<li>${link}</li>`;
+        }
+        document.querySelector('.menu').innerHTML = menu + '</ul>';
+    });
+</script>
