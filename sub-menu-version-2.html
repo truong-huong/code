@@ -1,3 +1,7 @@
+
+
+
+
 <title>Unlimited multi-level dropdown menu using dashes with Javascript version 2</title>
 
 <ul class="_create_menu">
@@ -9,9 +13,9 @@
     <li>__VietNam</li>
     <li>___VietNam submenu</li>
     <li>___VietNam submenu</li>
-    <li>__American</li>
     <li>_Physics</li>
     <li>Report</li>
+    
 </ul>
 
 <script type="text/javascript">
@@ -60,7 +64,7 @@
         } else if (_now == _new) {
             _menu = _menu + `<li>${_span_link}</li>`;
         } else {
-            _menu = _menu + `<li>${_span_link}</li></ul></li>`;
+            _menu = _menu + `<li>${_span_link}</li>${('</ul>').repeat((_now - _new))}</li>`;
         }
     });
 
