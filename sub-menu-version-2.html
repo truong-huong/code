@@ -60,6 +60,9 @@
         }
 
         if (_now < _new) {
+            if (_new - _now > 1) {
+                console.log(`Syntax error at ${el.nextElementSibling.outerHTML}`);
+            }
             _menu = _menu + `<li class='sub-menu'>${_span_link}<ul class='${_submenu_class}'>`;
         } else if (_now == _new) {
             _menu = _menu + `<li>${_span_link}</li>`;
