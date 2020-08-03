@@ -1,0 +1,69 @@
+<title>Unlimited multi-level dropdown menu using dashes with Javascript version 2</title>
+
+<ul class="_create_menu">
+    <li href='https://codemai.blogspot.com'>Home</li>
+    <li>Books</li>
+    <li>_Math</li>
+    <li>_English</li>
+    <li>_Geography</li>
+    <li>__VietNam</li>
+    <li>___VietNam submenu</li>
+    <li>___VietNam submenu</li>
+    <li>__American</li>
+    <li>_Physics</li>
+    <li>Report</li>
+</ul>
+
+<script type="text/javascript">
+    var _now = 0;
+    var _new = 0;
+    var _menu = '';
+    var _submenu_class = 'sub-menu';
+    var _li_class = 'li-class';
+    var _span_link;
+    Array.prototype.forEach.call(document.querySelectorAll('._create_menu li'), (el) => {
+        var now_str = el.innerText;
+        _new = 0;
+        _now = 0;
+        try {
+            var new_str = el.nextElementSibling.innerText;
+        } catch (e) {
+            var new_str = undefined;
+        }
+        if (el.getAttribute('data-href') != '#' && el.getAttribute('data-href') != null ) {
+            var _span_link = `<span><a href='${el.getAttribute('data-href')}'>${el.innerText.replace(/\_/gim,'')}</a></span>`;
+        } else {
+            var _span_link = `<span>${el.innerText.replace(/\_/gim,'')}</span>`
+        }
+
+        for (var i = 0; i < now_str.length; i++) {
+            if (now_str.charAt(i) == '_') {
+                _now = _now + 1;
+            } else {
+                break;
+            };
+        }
+        if (new_str != undefined) {
+            for (var i = 0; i < new_str.length; i++) {
+                if (new_str.charAt(i) == '_') {
+                    _new = _new + 1;
+                } else {
+                    break;
+                };
+            }
+        } else {
+            _new = -1;
+        }
+
+        if (_now < _new) {
+            _menu = _menu + `<li class='sub-menu'>${_span_link}<ul class='${_submenu_class}'>`;
+        } else if (_now == _new) {
+            _menu = _menu + `<li>${_span_link}</li>`;
+        } else {
+            _menu = _menu + `<li>${_span_link}</li></ul></li>`;
+        }
+    });
+
+    document.querySelector('._create_menu').innerHTML = _menu;
+    // Codemai.blogspot.com
+</script>
